@@ -89,3 +89,6 @@
 
 #### a. Buat AppShell
 ![1](public/img/26.png)
+
+### 7. Implementasi Layout di _app.tsx
+![1](public/img/27.png)
