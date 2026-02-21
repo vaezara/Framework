@@ -30,3 +30,10 @@
 ### 2. Routing Menggunakan Folder
 ![1](public/img/2.png)
 
+### 3. Nested Routing
+
+### a. Buat Folder Setting
+#### user.tsx
+![1](public/img/3.png)
+#### app.tsx
+![1](public/img/4.png)
