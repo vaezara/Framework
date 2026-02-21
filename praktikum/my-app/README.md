@@ -26,39 +26,39 @@
 
 ### Langkah 1 – Pengecekan Lingkungan
 
-node -v dan npm -v
+#### node -v dan npm -v
 ![1](public/img/1-1.jpg)
-git -v
+#### git -v
 ![2](public/img/1-2.jpg)
 
 ### Langkah 2 – Membuat Project Next.js
 
-Membuat direktori baru dan masuk ke direktori kerja
+#### Membuat direktori baru dan masuk ke direktori kerja
 ![3](public/img/1-3.jpg)
-Menjalankan perintah
+#### Menjalankan perintah
 ![4](public/img/1-4.jpg)
 
 ### Langkah 3 – Menjalankan Server Development
 
-Masuk ke folder project
+#### Masuk ke folder project
 ![5](public/img/1-5.jpg)
-Menjalankan aplikasi dengan npm run dev
+#### Menjalankan aplikasi dengan npm run dev
 ![6](public/img/1-6.jpg)
-Buka browser dan akses: http://localhost:3000
+#### Buka browser dan akses: http://localhost:3000
 ![7](public/img/1-7.jpg)
 
 
 ### Langkah 4 – Mengenal Struktur Folder
 
-pages/ → tempat routing halaman
+#### pages/ → tempat routing halaman
 ![8](public/img/1-8.png)
-public/ → aset statis
+#### public/ → aset statis
 ![9](public/img/1-9.png)
-styles/ → file CSS
+#### styles/ → file CSS
 ![10](public/img/1-10.png)
-package.json → konfigurasi project
+#### package.json → konfigurasi project
 ![11](public/img/1-11.png)
-gitIgnore -> file konfigurasi di Git
+#### gitIgnore -> file konfigurasi di Git
 ![12](public/img/1-12.png)
 
 ### Langkah 5 – Modifikasi Halaman Utama
