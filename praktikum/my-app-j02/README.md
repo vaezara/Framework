@@ -102,3 +102,5 @@
 ### Tugas 1 - Routing
 #### Halaman /profile
 ![1](public/img/31.png)
+#### Halaman /profile/edit
+![1](public/img/32.png)
