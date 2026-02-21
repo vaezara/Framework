@@ -50,3 +50,9 @@
 ![1](public/img/8.png)
 #### modifikasi [id].tsx
 ![1](public/img/9.png)
+
+### b. Uji di Browser
+#### /produk/sepatu-baru
+![1](public/img/10.png)
+#### /produk/baju
+![1](public/img/11.png)
