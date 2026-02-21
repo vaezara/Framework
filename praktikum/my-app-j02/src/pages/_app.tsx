@@ -8,9 +8,9 @@ export default function App({ Component, pageProps }: AppProps) {
     <main>
       <Navbar />
       <Component {...pageProps} />
-      <div>
+      {/* <div>
         footer
-      </div>
+      </div> */}
     </main>
   );
 };

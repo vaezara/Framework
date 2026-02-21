@@ -1,7 +1,9 @@
 const Navbar = () => {
     return (
         <div className="navbar">
-            <div>navbar Component</div>
+            <div>
+                <strong>My App</strong>
+            </div>
         </div>
     );
 };

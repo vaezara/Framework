@@ -96,3 +96,9 @@
 ![1](public/img/28.png)
 ![1](public/img/29.png)
 ![1](public/img/30.png)
+
+## Tugas Praktikum
+
+### Tugas 1 - Routing
+#### Halaman /profile
+![1](public/img/31.png)
