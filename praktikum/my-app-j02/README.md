@@ -77,3 +77,5 @@
 ![1](public/img/19.png)
 #### Modifikasi hapus navbar pages/index.tsx 
 ![1](public/img/20.png)
+#### Modifikasi _app.tsx menambahkan navbar
+![1](public/img/21.png)
