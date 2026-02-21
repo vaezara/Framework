@@ -57,7 +57,7 @@
 #### /produk/baju
 ![1](public/img/11.png)
 
-### 5. Membuat Konponen Navbar
+### 5. Membuat Komponen Navbar
 
 ### a. Struktur Komponen
 #### Modifikasi index.tsx
@@ -84,3 +84,8 @@
 ![1](public/img/23.png)
 ![1](public/img/24.png)
 ![1](public/img/25.png)
+
+### 6. Membuat Layout Global (App Shell)
+
+#### a. Buat AppShell
+![1](public/img/26.png)
