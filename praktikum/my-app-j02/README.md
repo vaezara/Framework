@@ -70,3 +70,7 @@
 ![1](public/img/15.png)
 #### Modifikasi pages/index.tsx
 ![1](public/img/16.png)
+#### Modifikasi _app.tsx
+![1](public/img/17.png)
+### Hasil navbar
+![1](public/img/18.png)
