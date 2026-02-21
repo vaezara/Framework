@@ -47,3 +47,6 @@
 
 ### a. Buat Halaman Produk
 ![1](public/img/7.png)
+![1](public/img/8.png)
+#### modifikasi [id].tsx
+![1](public/img/9.png)
