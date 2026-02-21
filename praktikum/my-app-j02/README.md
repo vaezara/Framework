@@ -104,3 +104,5 @@
 ![1](public/img/31.png)
 #### Halaman /profile/edit
 ![1](public/img/32.png)
+#### Hasil Routing
+![1](public/img/33.gif)
