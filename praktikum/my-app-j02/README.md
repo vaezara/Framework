@@ -68,3 +68,5 @@
 ![1](public/img/14.png)
 #### Modifikasi global.css
 ![1](public/img/15.png)
+#### Modifikasi pages/index.tsx
+![1](public/img/16.png)
