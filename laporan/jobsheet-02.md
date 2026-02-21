@@ -1,0 +1,129 @@
+## <p align = "center">LAPORAN PRAKTIKUM JOBSHEET 2</p>
+## <p align = "center">Routing & Layouting pada Next.js (Pages Router)</p>
+
+<br><br>
+
+<p align="center">
+  <img src="../praktikum/my-app-j02/public/img/logo_polinema.png" width="40%">
+</p>
+
+<br><br>
+
+## <p align = "center">Oleh :</p>
+## <p align = "center">Nova Eliza Maharani</p>
+## <p align = "center">NIM. 2341720252 </p>
+
+<br><br>
+
+## <p align = "center">PROGRAM STUDI D-IV TEKNIK INFORMATIKA</p>
+## <p align = "center">JURUSAN TEKNOLOGI INFORMASI</p>
+## <p align = "center">POLITEKNIK NEGERI MALANG</p>
+## <p align = "center">FEBRUARI 2026</p>
+
+<br><br>
+
+## Hasil Praktikum
+
+### 1. Routing Dasar (Static Routing)
+![1](../praktikum/my-app-j02/public/img/1.png)
+
+### 2. Routing Menggunakan Folder
+![1](../praktikum/my-app-j02/public/img/2.png)
+
+### 3. Nested Routing
+
+### a. Buat Folder Setting
+#### user.tsx
+![1](../praktikum/my-app-j02/public/img/3.png)
+#### app.tsx
+![1](../praktikum/my-app-j02/public/img/4.png)
+#### modifikasi folder user
+![1](../praktikum/my-app-j02/public/img/5.png)
+
+### b. Nested Lebih Dalam
+![1](../praktikum/my-app-j02/public/img/6.png)
+
+### 4. Dynamic Routing
+
+### a. Buat Halaman Produk
+![1](../praktikum/my-app-j02/public/img/7.png)
+![1](../praktikum/my-app-j02/public/img/8.png)
+#### modifikasi [id].tsx
+![1](../praktikum/my-app-j02/public/img/9.png)
+
+### b. Uji di Browser
+#### /produk/sepatu-baru
+![1](../praktikum/my-app-j02/public/img/10.png)
+#### /produk/baju
+![1](../praktikum/my-app-j02/public/img/11.png)
+
+### 5. Membuat Komponen Navbar
+
+### a. Struktur Komponen
+#### Modifikasi index.tsx
+![1](../praktikum/my-app-j02/public/img/12.png)
+#### Modifikasi global.css
+![1](../praktikum/my-app-j02/public/img/13.png)
+#### Modifikasi classname index.tsx 
+![1](../praktikum/my-app-j02/public/img/14.png)
+#### Modifikasi global.css
+![1](../praktikum/my-app-j02/public/img/15.png)
+#### Modifikasi pages/index.tsx
+![1](../praktikum/my-app-j02/public/img/16.png)
+#### Modifikasi _app.tsx
+![1](../praktikum/my-app-j02/public/img/17.png)
+### Hasil navbar
+![1](../praktikum/my-app-j02/public/img/18.png)
+![1](../praktikum/my-app-j02/public/img/19.png)
+#### Modifikasi hapus navbar pages/index.tsx 
+![1](../praktikum/my-app-j02/public/img/20.png)
+#### Modifikasi _app.tsx menambahkan navbar
+![1](../praktikum/my-app-j02/public/img/21.png)
+### Hasil navbar
+![1](../praktikum/my-app-j02/public/img/22.png)
+![1](../praktikum/my-app-j02/public/img/23.png)
+![1](../praktikum/my-app-j02/public/img/24.png)
+![1](../praktikum/my-app-j02/public/img/25.png)
+
+### 6. Membuat Layout Global (App Shell)
+
+#### a. Buat AppShell
+![1](../praktikum/my-app-j02/public/img/26.png)
+
+### 7. Implementasi Layout di _app.tsx
+![1](../praktikum/my-app-j02/public/img/27.png)
+#### Modifikasi footer
+![1](../praktikum/my-app-j02/public/img/28.png)
+![1](../praktikum/my-app-j02/public/img/29.png)
+![1](../praktikum/my-app-j02/public/img/30.png)
+
+## Tugas Praktikum
+
+### Tugas 1 - Routing
+#### Halaman /profile
+![1](../praktikum/my-app-j02/public/img/31.png)
+#### Halaman /profile/edit
+![1](../praktikum/my-app-j02/public/img/32.png)
+#### Hasil Routing
+![1](../praktikum/my-app-j02/public/img/33.gif)
+
+### Tugas 2 - Dynamic Routing
+![1](../praktikum/my-app-j02/public/img/34.png)
+
+### Tugas 3 - Layout 
+![1](../praktikum/my-app-j02/public/img/35.png)
+![1](../praktikum/my-app-j02/public/img/36.png)
+![1](../praktikum/my-app-j02/public/img/37.png)
+![1](../praktikum/my-app-j02/public/img/38.png)
+
+## Pertanyaan Refleksi
+
+### 1. Apa perbedaan routing berbasis file dan routing manual?
+- Routing berbasis file : struktur folder jadi panduan untuk routing, misal ada file pages/about.tsx, kita bisa langsung mengakses di /about
+- Routing manual : harus menulis kode route sendiri, contohnya `` <Route path="/about" component={About} /> ``
+
+### 2. Mengapa dynamic routing penting dalam aplikasi web?
+Karena konten pada web tidak selalu statis dan agar satu halaman bisa menyesuaikan data yang berbeda. Misal profil pengguna /user/123 atau produk/234, jadi kita sudah membuat template nya dan isinya bisa menyesuaikan data yang ada
+
+### 3. Apa keuntungan menggunakan layout global dibanding memanggil komponen satu per satu?
+komponen seperti navbar dan footer dapat dibuat sekali pakai serta otomatis muncul disemua halaman
