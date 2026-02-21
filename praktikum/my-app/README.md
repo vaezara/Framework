@@ -3,7 +3,9 @@
 
 <br><br>
 
-<p align = "center"><img src="img/logo_polinema.png" width="40%"></p>
+<p align="center">
+  <img src="public/img/logo_polinema.png" width="40%">
+</p>
 
 <br><br>
 
@@ -26,7 +28,6 @@
 
 node -v dan npm -v
 ![1](public/img/1-1.jpg)
-<br>
 git -v
 ![2](public/img/1-2.jpg)
 
@@ -34,7 +35,6 @@ git -v
 
 Membuat direktori baru dan masuk ke direktori kerja
 ![3](public/img/1-3.jpg)
-<br>
 Menjalankan perintah
 ![4](public/img/1-4.jpg)
 
@@ -42,10 +42,8 @@ Menjalankan perintah
 
 Masuk ke folder project
 ![5](public/img/1-5.jpg)
-<br>
 Menjalankan aplikasi dengan npm run dev
 ![6](public/img/1-6.jpg)
-<br>
 Buka browser dan akses: http://localhost:3000
 ![7](public/img/1-7.jpg)
 
@@ -54,16 +52,12 @@ Buka browser dan akses: http://localhost:3000
 
 pages/ → tempat routing halaman
 ![8](public/img/1-8.png)
-<br>
 public/ → aset statis
 ![9](public/img/1-9.png)
-<br>
 styles/ → file CSS
 ![10](public/img/1-10.png)
-<br>
 package.json → konfigurasi project
 ![11](public/img/1-11.png)
-<br>
 gitIgnore -> file konfigurasi di Git
 ![12](public/img/1-12.png)
 
