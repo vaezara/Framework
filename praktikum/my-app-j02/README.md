@@ -109,3 +109,9 @@
 
 ### Tugas 2 - Dynamic Routing
 ![1](public/img/34.png)
+
+### Tugas 3 - Layout 
+![1](public/img/35.png)
+![1](public/img/36.png)
+![1](public/img/37.png)
+![1](public/img/38.png)
