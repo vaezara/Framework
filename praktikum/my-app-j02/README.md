@@ -42,3 +42,8 @@
 
 ### b. Nested Lebih Dalam
 ![1](public/img/6.png)
+
+### 4. Dynamic Routing
+
+### a. Buat Halaman Produk
+![1](public/img/7.png)
