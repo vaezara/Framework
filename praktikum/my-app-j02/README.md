@@ -92,3 +92,7 @@
 
 ### 7. Implementasi Layout di _app.tsx
 ![1](public/img/27.png)
+#### Modifikasi footer
+![1](public/img/28.png)
+![1](public/img/29.png)
+![1](public/img/30.png)
