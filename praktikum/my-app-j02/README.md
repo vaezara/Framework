@@ -74,3 +74,6 @@
 ![1](public/img/17.png)
 ### Hasil navbar
 ![1](public/img/18.png)
+![1](public/img/19.png)
+#### Modifikasi hapus navbar pages/index.tsx 
+![1](public/img/20.png)
