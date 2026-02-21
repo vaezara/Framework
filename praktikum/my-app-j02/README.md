@@ -25,4 +25,8 @@
 ## Hasil Praktikum
 
 ### 1. Routing Dasar (Static Routing)
-![1](public/img/image.png)
+![1](public/img/1.png)
+
+### 2. Routing Menggunakan Folder
+![1](public/img/2.png)
+
