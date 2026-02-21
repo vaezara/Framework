@@ -4,7 +4,7 @@
 <br><br>
 
 <p align="center">
-  <img src="public/img/logo_polinema.png" width="40%">
+  <img src="../praktikum/my-app/public/img/logo_polinema.png" width="40%">
 </p>
 
 <br><br>
@@ -27,59 +27,59 @@
 ### Langkah 1 – Pengecekan Lingkungan
 
 #### node -v dan npm -v
-![1](public/img/1-1.jpg)
+![1](../praktikum/my-app/public/img/1-1.jpg)
 #### git -v
-![2](public/img/1-2.jpg)
+![2](../praktikum/my-app/public/img/1-2.jpg)
 
 ### Langkah 2 – Membuat Project Next.js
 
 #### Membuat direktori baru dan masuk ke direktori kerja
-![3](public/img/1-3.jpg)
+![3](../praktikum/my-app/public/img/1-3.jpg)
 #### Menjalankan perintah
-![4](public/img/1-4.jpg)
+![4](../praktikum/my-app/public/img/1-4.jpg)
 
 ### Langkah 3 – Menjalankan Server Development
 
 #### Masuk ke folder project
-![5](public/img/1-5.jpg)
+![5](../praktikum/my-app/public/img/1-5.jpg)
 #### Menjalankan aplikasi dengan npm run dev
-![6](public/img/1-6.jpg)
+![6](../praktikum/my-app/public/img/1-6.jpg)
 #### Buka browser dan akses: http://localhost:3000
-![7](public/img/1-7.jpg)
+![7](../praktikum/my-app/public/img/1-7.jpg)
 
 
 ### Langkah 4 – Mengenal Struktur Folder
 
 #### pages/ → tempat routing halaman
-![8](public/img/1-8.png)
+![8](../praktikum/my-app/public/img/1-8.png)
 #### public/ → aset statis
-![9](public/img/1-9.png)
+![9](../praktikum/my-app/public/img/1-9.png)
 #### styles/ → file CSS
-![10](public/img/1-10.png)
+![10](../praktikum/my-app/public/img/1-10.png)
 #### package.json → konfigurasi project
-![11](public/img/1-11.png)
+![11](../praktikum/my-app/public/img/1-11.png)
 #### gitIgnore -> file konfigurasi di Git
-![12](public/img/1-12.png)
+![12](../praktikum/my-app/public/img/1-12.png)
 
 ### Langkah 5 – Modifikasi Halaman Utama
-![13](public/img/1-13.png)
-![14](public/img/1-14.png)
+![13](../praktikum/my-app/public/img/1-13.png)
+![14](../praktikum/my-app/public/img/1-14.png)
 
 ### Langkah 6 – Modifikasi API
-![15](public/img/1-15.png)
-![16](public/img/1-16.png)
+![15](../praktikum/my-app/public/img/1-15.png)
+![16](../praktikum/my-app/public/img/1-16.png)
 
 ### Langkah 7 – Modifikasi Background
-![17](public/img/1-17.png)
-![18](public/img/1-18.png)
+![17](../praktikum/my-app/public/img/1-17.png)
+![18](../praktikum/my-app/public/img/1-18.png)
 
 ## Tugas Praktikum
 ### Tugas 1
-![19](public/img/1-19.png)
-![20](public/img/1-20.png)
+![19](../praktikum/my-app/public/img/1-19.png)
+![20](../praktikum/my-app/public/img/1-20.png)
 ## Tugas 2
-![21](public/img/1-21.png)
-![22](public/img/1-22.gif)
+![21](../praktikum/my-app/public/img/1-21.png)
+![22](../praktikum/my-app/public/img/1-22.gif)
 
 ## Pertanyaan Refleksi
 
