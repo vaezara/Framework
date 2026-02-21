@@ -115,3 +115,15 @@
 ![1](public/img/36.png)
 ![1](public/img/37.png)
 ![1](public/img/38.png)
+
+## Pertanyaan Refleksi
+
+### 1. Apa perbedaan routing berbasis file dan routing manual?
+- Routing berbasis file : struktur folder jadi panduan untuk routing, misal ada file pages/about.tsx, kita bisa langsung mengakses di /about
+- Routing manual : harus menulis kode route sendiri, contohnya `` <Route path="/about" component={About} /> ``
+
+### 2. Mengapa dynamic routing penting dalam aplikasi web?
+Karena konten pada web tidak selalu statis dan agar satu halaman bisa menyesuaikan data yang berbeda. Misal profil pengguna /user/123 atau produk/234, jadi kita sudah membuat template nya dan isinya bisa menyesuaikan data yang ada
+
+### 3. Apa keuntungan menggunakan layout global dibanding memanggil komponen satu per satu?
+komponen seperti navbar dan footer dapat dibuat sekali pakai serta otomatis muncul disemua halaman
