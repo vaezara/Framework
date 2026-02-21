@@ -56,3 +56,10 @@
 ![1](public/img/10.png)
 #### /produk/baju
 ![1](public/img/11.png)
+
+### 5. Membuat Konponen Navbar
+
+### a. Struktur Komponen
+#### Modifikasi index.tsx
+![1](public/img/12.png)
+
