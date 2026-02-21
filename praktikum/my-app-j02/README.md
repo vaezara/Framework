@@ -62,4 +62,5 @@
 ### a. Struktur Komponen
 #### Modifikasi index.tsx
 ![1](public/img/12.png)
-
+#### Modifikasi global.css
+![1](public/img/13.png)
