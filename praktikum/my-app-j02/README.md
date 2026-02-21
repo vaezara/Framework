@@ -106,3 +106,6 @@
 ![1](public/img/32.png)
 #### Hasil Routing
 ![1](public/img/33.gif)
+
+### Tugas 2 - Dynamic Routing
+![1](public/img/34.png)
