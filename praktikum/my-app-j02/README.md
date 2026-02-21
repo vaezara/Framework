@@ -79,3 +79,8 @@
 ![1](public/img/20.png)
 #### Modifikasi _app.tsx menambahkan navbar
 ![1](public/img/21.png)
+### Hasil navbar
+![1](public/img/22.png)
+![1](public/img/23.png)
+![1](public/img/24.png)
+![1](public/img/25.png)
