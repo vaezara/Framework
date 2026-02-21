@@ -66,3 +66,5 @@
 ![1](public/img/13.png)
 #### Modifikasi classname index.tsx 
 ![1](public/img/14.png)
+#### Modifikasi global.css
+![1](public/img/15.png)
