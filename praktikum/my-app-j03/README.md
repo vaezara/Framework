@@ -53,5 +53,8 @@
 ### Langkah 5 – Validasi Parameter
 ![1](public/img/10.png)
 
+### Langkah 6 – Membuat Halaman Login & Register
+![1](public/img/11.png)
+
 
 
