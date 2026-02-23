@@ -50,6 +50,8 @@
 #### Modifikasi menjadi [[...slug.tsx]]
 ![1](public/img/9.png)
 
+### Langkah 5 – Validasi Parameter
+![1](public/img/10.png)
 
 
 
