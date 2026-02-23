@@ -59,3 +59,6 @@
 ### Langkah 7 – Navigasi Imperatif (router.push)
 ![1](public/img/12.png)
 ![1](public/img/13.gif)
+
+### Langkah 8 – Simulasi Redirect (Belum Login)
+![1](public/img/14.gif)
