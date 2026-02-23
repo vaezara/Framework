@@ -62,3 +62,8 @@
 
 ### Langkah 8 – Simulasi Redirect (Belum Login)
 ![1](public/img/14.gif)
+
+## Tugas Praktikum
+
+### Tugas 1
+![1](public/img/15.png)
