@@ -67,3 +67,6 @@
 
 ### Tugas 1
 ![1](public/img/15.png)
+
+### Tugas 2
+![1](public/img/16.gif)
