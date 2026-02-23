@@ -73,3 +73,18 @@
 
 ### Tugas 3
 ![1](public/img/17.gif)
+
+## Pertanyaan Refleksi
+### 1. Apa perbedaan [id].js dan [...slug].js?
+- [id].js : untuk route dinamis 1 segment, misal /produk/1 → id = 1.
+- [...slug].js : untuk catch-all route, bisa banyak segment, misal /blog/2026/02/23 → slug = ["2026","02","23"].
+
+### 2. Mengapa slug berbentuk array?
+Karena catch-all route bisa menangkap banyak path sekaligus. Misal : /category/pakaian/makanan → slug = ["pakaian", "makanan"]. Jadi array memudahkan kita loop dan menampilkan semua segment
+
+### 3. Kapan sebaiknya menggunakan Link dan router.push()?
+- Link : saat navigasi klik biasa di halaman untuk pindah halaman
+- router.push() : saat pindah halaman secara otomatis lewat kode, misal setelah login jadi user tidak perlu klik apa-apa
+
+### 4. Mengapa navigasi Next.js tidak me-refresh halaman?
+Karena Next.js menggunakan Client-Side Routing sehingga halaman dapat load di browser tanpa reload penuh, URL berubah tapi halaman tidak refresh total, hanya konten yang di update saja
