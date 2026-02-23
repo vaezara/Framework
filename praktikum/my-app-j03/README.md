@@ -29,3 +29,5 @@
 
 ### Langkah 2 – Membuat Catch-All Route
 ![1](public/img/2.png)
+#### Modifikasi [...slug.tsx]
+![1](public/img/3.png)
