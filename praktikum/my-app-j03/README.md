@@ -43,6 +43,12 @@
 #### Mengembalikan kode awal
 ![1](public/img/7.png)
 
+### Langkah 4 – Optional Catch-All Route
+
+#### Menggunakan [...slug].tsx
+![1](public/img/8.png)
+
+
 
 
 
