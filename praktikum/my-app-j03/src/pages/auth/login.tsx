@@ -16,6 +16,7 @@ const HalamanLogin = () => {
       setError("Email dan password wajib diisi!");
       return;
     }
+    localStorage.setItem("isLogin", "true");
     
     // Navigasi ke halaman produk
     push("/produk");
