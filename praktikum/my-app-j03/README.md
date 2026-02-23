@@ -47,7 +47,8 @@
 
 #### Menggunakan [...slug].tsx
 ![1](public/img/8.png)
-
+#### Modifikasi menjadi [[...slug.tsx]]
+![1](public/img/9.png)
 
 
 
