@@ -37,9 +37,11 @@
 #### Hasil akses URL awal
 ![1](public/img/4.png)
 #### Modifikasi [...slug.tsx]
-![1](public/img/4.png)
+![1](public/img/5.png)
 #### Hasil akses URL akhir
-![1](public/img/4.png)
+![1](public/img/6.png)
+#### Mengembalikan kode awal
+![1](public/img/7.png)
 
 
 
