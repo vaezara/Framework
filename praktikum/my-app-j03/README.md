@@ -56,5 +56,6 @@
 ### Langkah 6 – Membuat Halaman Login & Register
 ![1](public/img/11.png)
 
-
-
+### Langkah 7 – Navigasi Imperatif (router.push)
+![1](public/img/12.png)
+![1](public/img/13.gif)
