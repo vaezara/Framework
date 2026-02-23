@@ -31,3 +31,16 @@
 ![1](public/img/2.png)
 #### Modifikasi [...slug.tsx]
 ![1](public/img/3.png)
+
+### Langkah 3 – Pengujian Catch-All Route
+
+#### Hasil akses URL awal
+![1](public/img/4.png)
+#### Modifikasi [...slug.tsx]
+![1](public/img/4.png)
+#### Hasil akses URL akhir
+![1](public/img/4.png)
+
+
+
+
