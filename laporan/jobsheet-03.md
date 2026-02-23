@@ -4,7 +4,7 @@
 <br><br>
 
 <p align="center">
-  <img src="../praktikum/my-app-j02/public/img/logo_polinema.png" width="40%">
+  <img src="../praktikum/my-app-j03/public/img/logo_polinema.png" width="40%">
 </p>
 
 <br><br>
@@ -25,54 +25,54 @@
 ## Hasil Praktikum
 
 ### Langkah 1 - Menjalankan Project
-![1](../praktikum/my-app-j02/public/img/1.png)
+![1](../praktikum/my-app-j03/public/img/1.png)
 
 ### Langkah 2 – Membuat Catch-All Route
-![1](../praktikum/my-app-j02/public/img/2.png)
+![1](../praktikum/my-app-j03/public/img/2.png)
 #### Modifikasi [...slug.tsx]
-![1](../praktikum/my-app-j02/public/img/3.png)
+![1](../praktikum/my-app-j03/public/img/3.png)
 
 ### Langkah 3 – Pengujian Catch-All Route
 
 #### Hasil akses URL awal
-![1](../praktikum/my-app-j02/public/img/4.png)
+![1](../praktikum/my-app-j03/public/img/4.png)
 #### Modifikasi [...slug.tsx]
-![1](../praktikum/my-app-j02/public/img/5.png)
+![1](../praktikum/my-app-j03/public/img/5.png)
 #### Hasil akses URL akhir
-![1](../praktikum/my-app-j02/public/img/6.png)
+![1](../praktikum/my-app-j03/public/img/6.png)
 #### Mengembalikan kode awal
-![1](../praktikum/my-app-j02/public/img/7.png)
+![1](../praktikum/my-app-j03/public/img/7.png)
 
 ### Langkah 4 – Optional Catch-All Route
 
 #### Menggunakan [...slug].tsx
-![1](../praktikum/my-app-j02/public/img/8.png)
+![1](../praktikum/my-app-j03/public/img/8.png)
 #### Modifikasi menjadi [[...slug.tsx]]
-![1](../praktikum/my-app-j02/public/img/9.png)
+![1](../praktikum/my-app-j03/public/img/9.png)
 
 ### Langkah 5 – Validasi Parameter
-![1](../praktikum/my-app-j02/public/img/10.png)
+![1](../praktikum/my-app-j03/public/img/10.png)
 
 ### Langkah 6 – Membuat Halaman Login & Register
-![1](../praktikum/my-app-j02/public/img/11.png)
+![1](../praktikum/my-app-j03/public/img/11.png)
 
 ### Langkah 7 – Navigasi Imperatif (router.push)
-![1](../praktikum/my-app-j02/public/img/12.png)
-![1](../praktikum/my-app-j02/public/img/13.gif)
+![1](../praktikum/my-app-j03/public/img/12.png)
+![1](../praktikum/my-app-j03/public/img/13.gif)
 
 ### Langkah 8 – Simulasi Redirect (Belum Login)
-![1](../praktikum/my-app-j02/public/img/14.gif)
+![1](../praktikum/my-app-j03/public/img/14.gif)
 
 ## Tugas Praktikum
 
 ### Tugas 1
-![1](../praktikum/my-app-j02/public/img/15.png)
+![1](../praktikum/my-app-j03/public/img/15.png)
 
 ### Tugas 2
-![1](../praktikum/my-app-j02/public/img/16.gif)
+![1](../praktikum/my-app-j03/public/img/16.gif)
 
 ### Tugas 3
-![1](../praktikum/my-app-j02/public/img/17.gif)
+![1](../praktikum/my-app-j03/public/img/17.gif)
 
 ## Pertanyaan Refleksi
 ### 1. Apa perbedaan [id].js dan [...slug].js?
