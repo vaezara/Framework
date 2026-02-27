@@ -77,3 +77,13 @@
 ![1](public/img/18.png)
 #### c. Gunakan di Module
 ![1](public/img/19.png)
+
+### Langkah 9 - Tailwind CSS
+#### a. Install
+![1](public/img/20.png)
+#### b. Konfigurasi tailwind.config.js
+![1](public/img/21.png)
+#### c. Import di Global CSS
+![1](public/img/22.png)
+#### d. Contoh Penggunaan
+![1](public/img/23.png)
