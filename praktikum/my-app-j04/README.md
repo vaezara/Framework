@@ -91,4 +91,5 @@
 ## Tugas Praktikum
 ### Tugas 1
 ![1](public/img/24.png)
-
+### Tugas 2
+![1](public/img/25.png)
