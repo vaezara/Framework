@@ -87,3 +87,8 @@
 ![1](public/img/22.png)
 #### d. Contoh Penggunaan
 ![1](public/img/23.png)
+
+## Tugas Praktikum
+### Tugas 1
+![1](public/img/24.png)
+
