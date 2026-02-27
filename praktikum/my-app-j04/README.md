@@ -70,3 +70,10 @@
 ### Langkah 7 - Kombinasi Global CSS + CSS Module
 ![1](public/img/16.png)
 
+### Langkah 8 - SCSS (SASS)
+#### a. Install SASS
+![1](public/img/17.png)
+#### b. Global Variable
+![1](public/img/18.png)
+#### c. Gunakan di Module
+![1](public/img/19.png)
