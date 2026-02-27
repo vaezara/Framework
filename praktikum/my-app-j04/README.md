@@ -43,3 +43,14 @@
 ![1](public/img/6.png)
 - Jalankan browser
 ![1](public/img/7.png)
+
+### Langkah 3 - Styling untuk Pages (CSS Module)
+#### a. Contoh Login Page
+- Membuat auth/login.module.css
+![1](public/img/8.png)
+- Modifikasi login.module.css
+![1](public/img/9.png)
+- Modifikasi login.tsx
+![1](public/img/10.png)
+- Jalankan browser
+![1](public/img/11.png)
