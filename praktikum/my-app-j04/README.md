@@ -66,3 +66,7 @@
 
 ### Langkah 6 - Inline Styling (CSS-in-JS)
 ![1](public/img/15.png)
+
+### Langkah 7 - Kombinasi Global CSS + CSS Module
+![1](public/img/16.png)
+
