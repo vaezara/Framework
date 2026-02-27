@@ -57,3 +57,9 @@
 
 ### Langkah 4 - Conditional Rendering Navbar (Tanpa Navbar di Login)
 ![1](public/img/12.png)
+
+### Langkah 5 - Refactoring Struktur Project (Best Practice)
+### a. Struktur Awal (Kurang Rapi)
+![1](public/img/13.png)
+### b. Struktur Refactor (Disarankan)
+![1](public/img/14.png)
