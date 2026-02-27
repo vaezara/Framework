@@ -5,14 +5,16 @@ import styles from './login.module.css';
 const TampilanLogin = () => {
     const { push } = useRouter();
 
-    const handlerLogin = () => {
+    const handleLogin = () => {
         // logic login disini
         push('/produk');
     }
 
     return (
         <div className={styles.login}>
-            <button onClick={() => handlerLogin()}>Login</button> <br />
+            <h1>Halaman Login</h1>
+            <button onClick={() => handleLogin()}>Login</button> <br />
+            <h1 style={{color: "red", border:"1px solid red", borderRadius: "10px", padding:"10px"}}>belum punya akun</h1>
             <Link href="/auth/register">Ke Halaman Register</Link>
         </div>
     );

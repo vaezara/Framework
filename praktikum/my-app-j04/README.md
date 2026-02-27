@@ -63,3 +63,6 @@
 ![1](public/img/13.png)
 ### b. Struktur Refactor (Disarankan)
 ![1](public/img/14.png)
+
+### Langkah 6 - Inline Styling (CSS-in-JS)
+![1](public/img/15.png)
