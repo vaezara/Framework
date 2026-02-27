@@ -93,3 +93,17 @@
 ![1](public/img/24.png)
 ### Tugas 2
 ![1](public/img/25.png)
+### Tugas 3
+![1](public/img/26.png)
+#### Tailwind utility classes yang dipakai
+p-8 : padding 8 di semua sisi
+bg-gray-100 : background abu muda untuk section
+rounded-lg : border-radius besar
+shadow-md : memberi bayangan pada section
+text-2xl : ukuran font judul
+font-bold : teks tebal
+mb-4 : margin bawah 4 (spasi antar judul & list)
+text-center : judul di tengah
+text-blue-600 : warna teks judul
+grid grid-cols-2 gap-4 : menata list produk dalam grid 2 kolom dengan jarak 4
+bg-white p-4 rounded hover:bg-blue-50 transition → style tiap item produk
