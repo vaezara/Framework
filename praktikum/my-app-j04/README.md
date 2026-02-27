@@ -107,3 +107,20 @@ text-center : judul di tengah
 text-blue-600 : warna teks judul
 grid grid-cols-2 gap-4 : menata list produk dalam grid 2 kolom dengan jarak 4
 bg-white p-4 rounded hover:bg-blue-50 transition → style tiap item produk
+
+## Pertanyaan Refleksi
+### 1. Kapan sebaiknya menggunakan CSS Module dibanding Global CSS?
+Jawab : CSS Module digunakan ketika kita ingin membatasi scope style hanya untuk satu komponen tertentu, sehingga style tidak akan memengaruhi komponen lain
+### 2. Apa kelemahan inline styling?
+Jawab : Inline styling, misal: ``<div style={{ color: "red" }}>`` memiliki beberapa kelemahan seperti kita harus menulis ulang di setiap elemen yang ingin ditambahkan dan kode jadi berantakan jika banyak penggunaan style
+### 3. Mengapa SCSS cocok untuk project skala besar?
+Jawab : 
+1. Memudahkan pengelolaan warna, ukuran font, dan parameter desain lainnya di seluruh proyek
+2. Struktur kode lebih rapi
+3. Memungkinkan penggunaan kembali potongan kode CSS sehingga efisien.
+### 4. Apa keunggulan Tailwind dibanding CSS tradisional?
+Jawab : 
+1. Langsung menggunakan class utility tanpa membuat file CSS baru.
+2. Konsistensi styling seperti ukuran margin, padding, dan font
+3. Mendukung prefix seperti sm:, md:, lg: untuk desain responsif.
+
