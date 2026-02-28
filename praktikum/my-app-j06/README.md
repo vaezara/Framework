@@ -51,3 +51,7 @@ Hasil set up Firebase
 
 ### Langkah 9 – Ambil Data dari Firestore
 ![1](public/img/8.png)
+
+### Langkah 10 – API Mengambil Data Firebase
+![1](public/img/9.png)
+![1](public/img/10.png)
