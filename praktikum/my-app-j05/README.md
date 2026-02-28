@@ -48,4 +48,6 @@
 ### Tugas 1
 ![1](public/img/8.png)
 
+### Tugas 2
+![1](public/img/9.png)
 
