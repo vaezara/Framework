@@ -35,3 +35,7 @@
 
 ### Langkah 4 – Membuat Custom Error Page (404)
 ![1](public/img/4.png)
+
+### Langkah 5 – Styling Halaman 404
+![1](public/img/5.png)
+![1](public/img/6.png)
