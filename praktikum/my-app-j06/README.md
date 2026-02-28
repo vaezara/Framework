@@ -29,3 +29,6 @@
 
 ### Langkah 2 – Membuat API Produk
 ![1](public/img/2.png)
+
+### Langkah 3 – Fetch Data API di Frontend
+![1](public/img/3.png)
