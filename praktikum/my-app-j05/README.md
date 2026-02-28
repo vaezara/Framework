@@ -54,4 +54,18 @@
 ### Tugas 3
 ![1](public/img/10.png)
 
+## Pertanyaan Evaluasi
+
+### 1. Apa fungsi utama _document.js?
+Jawab : Fungsi _document.js ialah untuk mengatur struktur HTML global untuk semua halaman (html, body, meta, font).
+### 2. Mengapa <title> tidak disarankan di _document.js?
+Jawab : Karena judul harus dinamis per halaman jika ``<title>`` diletakkan di _document.js maka judul akan sama di semua halaman
+### 3. Apa perbedaan halaman biasa dan halaman 404.js?
+Jawab : 
+- Halaman biasa untuk konten normal, diakses via URL
+- 404.js agar otomatis muncul untuk URL yang tidak ada atau sebagai menampilkan pesan error
+### 4. Mengapa folder public tidak perlu di-import?
+Jawab : Karena folder public merupakan folder untuk menyimpan aset statis sehingga bisa diakses langsung via path ``/gambar`` tanpa import terlebih dahulu
+
+
 
