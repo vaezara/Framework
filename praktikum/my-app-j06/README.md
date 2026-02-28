@@ -32,3 +32,10 @@
 
 ### Langkah 3 – Fetch Data API di Frontend
 ![1](public/img/3.png)
+
+## Integrasi Firebase
+
+### Langkah 5 - Setup Firebase
+
+Hasil set up Firebase
+![1](public/img/4.png)
