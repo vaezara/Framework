@@ -39,3 +39,6 @@
 
 Hasil set up Firebase
 ![1](public/img/4.png)
+
+### Langkah 6 – Install Firebase
+![1](public/img/5.png)
