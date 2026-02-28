@@ -30,3 +30,5 @@
 ### Langkah 2 – Membuat Custom Document
 ![1](public/img/2.png)
 
+### Langkah 3 – Pengaturan Title per Halaman
+![1](public/img/3.png)
