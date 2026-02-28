@@ -42,3 +42,10 @@
 
 ### Langkah 6 – Menampilkan Gambar dari Folder Public
 ![1](public/img/7.png)
+
+## Tugas Praktikum
+
+### Tugas 1
+![1](public/img/8.png)
+
+
