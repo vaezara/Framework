@@ -32,3 +32,6 @@
 
 ### Langkah 3 – Pengaturan Title per Halaman
 ![1](public/img/3.png)
+
+### Langkah 4 – Membuat Custom Error Page (404)
+![1](public/img/4.png)
