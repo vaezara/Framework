@@ -48,3 +48,6 @@ Hasil set up Firebase
 
 ### Langkah 8 – Konfigurasi Firebase
 ![1](public/img/7.png)
+
+### Langkah 9 – Ambil Data dari Firestore
+![1](public/img/8.png)
