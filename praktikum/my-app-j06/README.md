@@ -27,3 +27,5 @@
 ### Langkah 1 – Menjalankan Project
 ![1](public/img/1.png)
 
+### Langkah 2 – Membuat API Produk
+![1](public/img/2.png)
