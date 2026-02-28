@@ -42,3 +42,6 @@ Hasil set up Firebase
 
 ### Langkah 6 – Install Firebase
 ![1](public/img/5.png)
+
+### Langkah 7 – Konfigurasi Environment Variable
+![1](public/img/6.png)
