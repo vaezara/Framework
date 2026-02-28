@@ -39,3 +39,6 @@
 ### Langkah 5 – Styling Halaman 404
 ![1](public/img/5.png)
 ![1](public/img/6.png)
+
+### Langkah 6 – Menampilkan Gambar dari Folder Public
+![1](public/img/7.png)
