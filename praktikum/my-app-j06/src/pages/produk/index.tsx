@@ -13,20 +13,26 @@ type ProductType =
 const kategori = () => {
   const [products, setProducts] = useState([]);
 
-  useEffect(() => {
-    fetch("/api/produk")
-    .then((response) => response.json())
-    .then((responsedata) => {
+    const fetchProducts = async () => {
+    try {
+      const response = await fetch("/api/produk");
+      const responsedata = await response.json();
       setProducts(responsedata.data);
-    })
-    .catch((error) => {
+    } catch (error) {
       console.error("Error fetching produk:", error);
-    });
+    }
+  };
+
+  useEffect(() => {
+    fetchProducts();
   }, []);
 
   return (
     <div>
       <h1>Daftar Produk</h1>
+       <button onClick={fetchProducts}>
+        Refresh Data
+      </button>
       {products.map((products:ProductType) => (
         <div key={products.id}>
           <h2>{products.name}</h2>

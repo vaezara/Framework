@@ -65,3 +65,6 @@ Hasil set up Firebase
 ### Tugas 2
 ![1](public/img/13.png)
 ![1](public/img/14.png)
+
+### Tugas 3
+![1](public/img/15.gif)
