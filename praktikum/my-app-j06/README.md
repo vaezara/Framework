@@ -55,3 +55,7 @@ Hasil set up Firebase
 ### Langkah 10 – API Mengambil Data Firebase
 ![1](public/img/9.png)
 ![1](public/img/10.png)
+
+## Tugas Praktikum
+![1](public/img/11.png)
+![1](public/img/12.png)
