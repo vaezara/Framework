@@ -57,5 +57,11 @@ Hasil set up Firebase
 ![1](public/img/10.png)
 
 ## Tugas Praktikum
+
+### Tugas 1
 ![1](public/img/11.png)
 ![1](public/img/12.png)
+
+### Tugas 2
+![1](public/img/13.png)
+![1](public/img/14.png)
