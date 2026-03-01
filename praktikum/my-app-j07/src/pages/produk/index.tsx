@@ -1,46 +1,34 @@
 import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
+import TampilanProduk from "../views/product";
 
-type ProductType =
-{
-  id: string;
-  category: string;
-  name: string;
-  price: number;
-  size: string;
-}
+// type ProductType =
+// {
+//   id: string;
+//   category: string;
+//   name: string;
+//   price: number;
+//   size: string;
+// }
 
 const kategori = () => {
   const [products, setProducts] = useState([]);
 
-    const fetchProducts = async () => {
-    try {
-      const response = await fetch("/api/produk");
-      const responsedata = await response.json();
-      setProducts(responsedata.data);
-    } catch (error) {
-      console.error("Error fetching produk:", error);
-    }
-  };
-
   useEffect(() => {
-    fetchProducts();
+    fetch("/api/produk")
+      .then((response) => response.json())
+      .then((responsedata) => {
+        setProducts(responsedata.data);
+        // console.log("Data produk:", responsedata.data);
+      })
+      .catch((error) => {
+        console.error("Error fetching produk:", error);
+      });
   }, []);
 
   return (
     <div>
-      <h1>Daftar Produk</h1>
-       <button onClick={fetchProducts}>
-        Refresh Data
-      </button>
-      {products.map((products:ProductType) => (
-        <div key={products.id}>
-          <h2>{products.name}</h2>
-          <p>Kategori: {products.category}</p>
-          <p>Harga: {products.price}</p>
-          <p>Ukuran: {products.size}</p>
-        </div>
-      ))}
+      <TampilanProduk products={products} />
     </div>
   );
 };
