@@ -32,4 +32,7 @@
 ![1](public/img/3.png)
 
 ### Langkah 3 – Implementasi Skeleton Loading
+- Animasi Skeleton
 ![1](public/img/4.gif)
+- Skeleton dan informasi
+![1](public/img/5.gif)
