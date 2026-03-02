@@ -30,3 +30,6 @@
 ### Langkah  2 – Implementasi CSR dengan useEffect
 ![1](public/img/2.png)
 ![1](public/img/3.png)
+
+### Langkah 3 – Implementasi Skeleton Loading
+![1](public/img/4.gif)
