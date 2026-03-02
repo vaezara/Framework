@@ -36,3 +36,22 @@
 ![1](public/img/4.gif)
 - Skeleton dan informasi
 ![1](public/img/5.gif)
+
+### Langkah 5 – Implementasi SWR
+![1](public/img/6.gif)
+
+#### Perbandingan
+- use Effect manual :
+1. Update data : handle sendiri
+2. Caching : tidak ada
+3. Kode : panjang
+4. Error / retry : manual
+5. Install library : tidak
+- SWR : 
+1. Update data : otomatis update
+2. Caching : ada otomatis
+3. Kode : pendek dan rapi
+4. Error / retry : bisa otomatis
+5. Install library : perlu SWR
+
+Kesimpulan : useEffect itu manual semua, kita pegang kendali penuh. Sedangkan SWR lebih otomatis, data dikelola sendiri dan kode bisa lebih sederhana.
