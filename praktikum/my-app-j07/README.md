@@ -55,3 +55,11 @@
 5. Install library : perlu SWR
 
 Kesimpulan : useEffect itu manual semua, kita pegang kendali penuh. Sedangkan SWR lebih otomatis, data dikelola sendiri dan kode bisa lebih sederhana.
+
+## Tugas Praktikum
+
+### Tugas 1
+1. Jelaskan perbedaan:
+- Client Side Rendering (CSR): Halaman dirender di browser. Loading awal lebih lambat, SEO kurang, tapi interaktifitas tinggi.
+- Server Side Rendering (SSR): Halaman dirender di server setiap request. Loading cepat, SEO bagus, tapi server lebih sibuk.
+- Static Site Generation (SSG): Halaman dirender sekali saat build. Loading sangat cepat, SEO optimal, tapi kurang cocok untuk konten yang sering berubah.
