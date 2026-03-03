@@ -68,3 +68,7 @@ Kesimpulan : useEffect itu manual semua, kita pegang kendali penuh. Sedangkan SW
 Pada langkah 3 praktikum saya sudah mengimplementasikan skeleton loading dengan animasi. Berikut hasilnya
 ![1](public/img/5.gif)
 ![1](public/img/6.gif)
+
+## Tugas 3
+Pada langkah 5 saya telah melakukan refactor dari data fetching manual menggunakan useEffect, berikut hasilnya
+![1](public/img/6.gif)
