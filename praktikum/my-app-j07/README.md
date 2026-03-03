@@ -63,3 +63,8 @@ Kesimpulan : useEffect itu manual semua, kita pegang kendali penuh. Sedangkan SW
 - Client Side Rendering (CSR): Halaman dirender di browser. Loading awal lebih lambat, SEO kurang, tapi interaktifitas tinggi.
 - Server Side Rendering (SSR): Halaman dirender di server setiap request. Loading cepat, SEO bagus, tapi server lebih sibuk.
 - Static Site Generation (SSG): Halaman dirender sekali saat build. Loading sangat cepat, SEO optimal, tapi kurang cocok untuk konten yang sering berubah.
+
+### Tugas 2
+Pada langkah 3 praktikum saya sudah mengimplementasikan skeleton loading dengan animasi. Berikut hasilnya
+![1](public/img/5.gif)
+![1](public/img/6.gif)
