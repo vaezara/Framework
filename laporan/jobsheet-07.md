@@ -1,0 +1,74 @@
+## <p align = "center">LAPORAN PRAKTIKUM JOBSHEET 7</p>
+## <p align = "center">CLIENT SIDE RENDERING</p>
+
+<br><br>
+
+<p align="center">
+  <img src="(../praktikum/my-app-j07/public/img/logo_polinema.png" width="40%">
+</p>
+
+<br><br>
+
+## <p align = "center">Oleh :</p>
+## <p align = "center">Nova Eliza Maharani</p>
+## <p align = "center">NIM. 2341720252 </p>
+
+<br><br>
+
+## <p align = "center">PROGRAM STUDI D-IV TEKNIK INFORMATIKA</p>
+## <p align = "center">JURUSAN TEKNOLOGI INFORMASI</p>
+## <p align = "center">POLITEKNIK NEGERI MALANG</p>
+## <p align = "center">MARET 2026</p>
+
+<br><br>
+
+## Hasil Praktikum
+
+### Langkah 1 – Setup Data Produk
+![1](../praktikum/my-app-j07/public/img/1.png)
+
+### Langkah  2 – Implementasi CSR dengan useEffect
+![1](../praktikum/my-app-j07/public/img/2.png)
+![1](../praktikum/my-app-j07/public/img/3.png)
+
+### Langkah 3 – Implementasi Skeleton Loading
+- Animasi Skeleton
+![1](../praktikum/my-app-j07/public/img/4.gif)
+- Skeleton dan informasi
+![1](../praktikum/my-app-j07/public/img/5.gif)
+
+### Langkah 5 – Implementasi SWR
+![1](../praktikum/my-app-j07/public/img/6.gif)
+
+#### Perbandingan
+- use Effect manual :
+1. Update data : handle sendiri
+2. Caching : tidak ada
+3. Kode : panjang
+4. Error / retry : manual
+5. Install library : tidak
+- SWR : 
+1. Update data : otomatis update
+2. Caching : ada otomatis
+3. Kode : pendek dan rapi
+4. Error / retry : bisa otomatis
+5. Install library : perlu SWR
+
+Kesimpulan : useEffect itu manual semua, kita pegang kendali penuh. Sedangkan SWR lebih otomatis, data dikelola sendiri dan kode bisa lebih sederhana.
+
+## Tugas Praktikum
+
+### Tugas 1
+1. Jelaskan perbedaan:
+- Client Side Rendering (CSR): Halaman dirender di browser. Loading awal lebih lambat, SEO kurang, tapi interaktifitas tinggi.
+- Server Side Rendering (SSR): Halaman dirender di server setiap request. Loading cepat, SEO bagus, tapi server lebih sibuk.
+- Static Site Generation (SSG): Halaman dirender sekali saat build. Loading sangat cepat, SEO optimal, tapi kurang cocok untuk konten yang sering berubah.
+
+### Tugas 2
+Pada langkah 3 praktikum saya sudah mengimplementasikan skeleton loading dengan animasi. Berikut hasilnya
+![1](../praktikum/my-app-j07/public/img/5.gif)
+![1](../praktikum/my-app-j07/public/img/6.gif)
+
+## Tugas 3
+Pada langkah 5 saya telah melakukan refactor dari data fetching manual menggunakan useEffect, berikut hasilnya
+![1](../praktikum/my-app-j07/public/img/6.gif)
