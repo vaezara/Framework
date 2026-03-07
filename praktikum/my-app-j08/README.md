@@ -29,3 +29,6 @@
 
 ### Langkah 2 - Implementasi getServerSideProps pada server.tsx
 ![1](public/img/2.png)
+
+### Langkah 2 - Refactor Type ( produk type )
+![1](public/img/3.png)
