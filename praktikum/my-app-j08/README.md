@@ -60,3 +60,15 @@
 ![1](public/img/4.gif)
 - Halaman `/products/server` (SSR)
 ![1](public/img/5.gif)
+
+### Tugas 2
+- Network tab CSR
+![1](public/img/6.png)
+- Network tab SSR
+![1](public/img/7.png)
+- View Source CSR
+![1](public/img/8.png)
+- View Source SSR
+![1](public/img/9.png)
+
+
