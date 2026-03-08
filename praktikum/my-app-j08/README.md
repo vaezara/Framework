@@ -83,3 +83,14 @@ Perbedaan juga dapat dilihat melalui View Source pada browser. Pada halaman CSR,
 Perbedaan lain juga bisa dilihat pada Network Tab di browser. Pada halaman CSR terdapat request tambahan ke API untuk mengambil data produk. Sedangkan pada SSR biasanya hanya ada satu request halaman karena data sudah diambil oleh server sebelum halaman dikirim ke browser.
 
 Dari percobaan ini dapat disimpulkan bahwa CSR dan SSR memiliki cara kerja yang berbeda. CSR membutuhkan waktu tambahan untuk mengambil data di browser sehingga sering menampilkan skeleton loading. Sedangkan SSR dapat menampilkan data lebih cepat karena proses pengambilan data sudah dilakukan di server sebelum halaman dikirim ke pengguna.
+
+## Studi Analisis
+
+1. Mengapa SSR lebih baik untuk SEO?
+Jawab : Karena konten sudah tersedia di HTML saat halaman dikirim dari server, sehingga mesin pencari dapat langsung membaca halaman tanpa menunggu JavaScript dijalankan.
+2. Kapan sebaiknya menggunakan SSR?
+Jawab : Digunakan untuk halaman yang butuh loading cepat dan visibilitas tinggi di mesin pencari, seperti halaman produk, berita, blog, atau landing page.
+3. Apa kekurangan SSR dibanding CSR?
+Jawab : Beban server lebih besar karena harus merender halaman setiap request, sehingga performa bisa menurun jika traffic tinggi, dan proses development bisa lebih kompleks.
+4. Mengapa skeleton tidak muncul pada SSR?
+Jawab : Karena data sudah dimasukkan ke HTML di server, sehingga browser langsung menampilkan konten tanpa perlu menunggu fetch data tambahan.
