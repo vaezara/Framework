@@ -52,3 +52,11 @@
 ![1](public/img/4.gif)
 - Halaman SSR (Skeleton tidak muncul dan sudah ada data produk)
 ![1](public/img/5.gif)
+
+## Tugas Praktikum
+
+### Tugas 1
+- Halaman `/products` (CSR)
+![1](public/img/4.gif)
+- Halaman `/products/server` (SSR)
+![1](public/img/5.gif)
