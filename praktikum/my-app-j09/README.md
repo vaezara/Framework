@@ -54,3 +54,13 @@
 ![1](public/img/9.png)
 2. Hasil halaman static
 ![1](public/img/10.png)
+
+## Tugas Praktikum
+
+### Tugas 1
+1. Halaman CSR
+![1](public/img/5.png)
+2. Halaman SSR
+![1](public/img/6.png)
+3. Halaman SSG
+![1](public/img/10.png)
