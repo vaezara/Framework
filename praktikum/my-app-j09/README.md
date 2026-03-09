@@ -26,3 +26,9 @@
 
 ### Langkah 1 – Setup Halaman Static
 ![1](public/img/1.png)
+
+### Langkah 3 - Build Production Mode
+- Build berhasil
+![1](public/img/2.png)
+- Hasil `npm run start`
+![1](public/img/3.png)
