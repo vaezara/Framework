@@ -37,3 +37,6 @@
 
 - Judul Detail Produk sudah ditengah
 ![1](public/img/4.png)
+
+### Langkah 3 - Implementasi SSR
+![1](public/img/5.gif)
