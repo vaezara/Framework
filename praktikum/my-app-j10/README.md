@@ -44,3 +44,29 @@
 ### Langkah 4 - Implementasi Static Site Generation (Dynamic SSG) 
 ![1](public/img/6.png)
 ![1](public/img/7.png)
+
+## Pengujian
+
+### Uji 1 - CSR
+Ada request API di network tab setelah detail produk di refresh
+![1](public/img/8.png)
+
+### Uji 2 - SSR
+Ketika detail produk di refresh tidak ada request API
+![1](public/img/9.png)
+
+### Uji 3 - SSG
+
+1. Hasil menjalankan `npm run build` dan `npm run start`
+![1](public/img/10.png)
+![1](public/img/11.png)
+
+2. Menambahkan produk baru di database
+![1](public/img/12.png)
+
+3. Halaman detail produk baru tidak muncul
+![1](public/img/13.png)
+
+4. Hasil menjalankan ulang `npm run build` dan `npm run start`. Produk yang baru ditambahkan muncul
+![1](public/img/14.png)
+![1](public/img/15.png)
