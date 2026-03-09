@@ -45,3 +45,12 @@
 ![1](public/img/6.png)
 - SSG (data tidak berubah)
 ![1](public/img/7.png)
+
+#### Uji 2 - Build Ulang
+1. Menjalankan ulang
+- `npm run build`
+![1](public/img/8.png)
+- `npm run start`
+![1](public/img/9.png)
+2. Hasil halaman static
+![1](public/img/10.png)
