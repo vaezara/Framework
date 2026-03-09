@@ -26,3 +26,14 @@
 
 ### Langkah 1 – Membuat Dynamic Routing
 ![1](public/img/1.png)
+
+### Langkah 2 - Implementasi CSR (Client Rendering) 
+
+- Hasil cek API produk
+![1](public/img/2.png)
+
+- Hasil Detail Produk ketika di klik
+![1](public/img/3.gif)
+
+- Judul Detail Produk sudah ditengah
+![1](public/img/4.png)
