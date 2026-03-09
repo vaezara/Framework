@@ -120,3 +120,17 @@ SSR : Data baru muncul tiap request ke server, lebih SEO-friendly, tapi beban se
 SSG : Data baru muncul hanya setelah build ulang, halaman sangat cepat, cocok untuk konten statis.
 
 Kesimpulannya, pemilihan metode tergantung kebutuhan aplikasi. Untuk data yang sering berubah, CSR atau SSR lebih tepat. Untuk konten jarang berubah dan butuh kecepatan tinggi, SSG lebih cocok
+
+## Studi Analisis
+1. Mengapa SSG tidak menampilkan data terbaru?
+Jawab : SSG (Static Site Generation) membuat halaman statis saat build time. Artinya HTML dan data sudah “dikunci” saat aplikasi dibangun. Jika ada data baru di database setelah build, halaman tidak otomatis berubah karena file HTML statis sudah dibuat. Agar data baru terlihat, aplikasi harus dibuild ulang.
+2. Mengapa SSG lebih cepat?
+Jawab : SSG lebih cepat karena halaman sudah dalam bentuk HTML statis. Browser langsung menerima halaman lengkap tanpa menunggu server atau JavaScript untuk mengambil data. Tidak ada proses rendering di server atau client saat request, sehingga waktu load halaman sangat singkat.
+3. Kapan SSG tidak cocok digunakan?
+Jawab : SSG tidak cocok untuk halaman yang sering berubah atau membutuhkan data real-time, misalnya dashboard, berita terbaru, atau fitur chat. Karena setiap update data harus dilakukan build ulang, SSG tidak efisien untuk konten yang cepat berubah.
+4. Mengapa e-commerce tidak cocok menggunakan SSG murni?
+Jawab : E-commerce biasanya memiliki data yang sering berubah, seperti stok produk, harga, atau promo. Jika menggunakan SSG murni, halaman produk akan menampilkan data lama sampai dilakukan build ulang. Hal ini bisa menyebabkan informasi yang ditampilkan tidak akurat, sehingga tidak cocok untuk e-commerce tanpa tambahan metode dinamis seperti CSR atau SSR.
+5. Apa perbedaan build mode dan development mode?
+Jawab : 
+- Development mode (npm run dev) : Digunakan saat membuat dan mengembangkan aplikasi. Hot reload aktif sehingga perubahan kode langsung terlihat.
+- Build mode (npm run build + npm run start) : Digunakan untuk produksi. Next.js membuat halaman statis (SSG) atau memproses SSR. Apabila terdapat perubahan data atau kode membutuhkan build ulang agar terlihat perubahannya.
