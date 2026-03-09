@@ -71,7 +71,7 @@ Ketika detail produk di refresh tidak ada request API
 ![1](public/img/14.png)
 ![1](public/img/15.png)
 
-### Tugas Praktikum      
+## Tugas Praktikum      
 
 #### Tugas 1
 
@@ -101,3 +101,28 @@ Sudah diimplementasikan pada `DetailProduk/index.tsx`, dokumentasi akan saya jab
 
 3. SSG
 ![1](public/img/18.gif)
+
+## F. Pertanyaan Analisis
+
+1. Mengapa getStaticPaths wajib pada dynamic SSG?
+
+Jawab : karena Next.js perlu tahu daftar path dinamis yang harus dibangun saat build time, sehingga halaman dynamic seperti /products/[id] bisa di-generate statis.
+
+2. Mengapa CSR membutuhkan loading state?
+
+Jawab : karena data diambil di browser saat runtime. apabila tanpa loading state, pengguna melihat layar kosong saat data belum selesai dimuat.
+
+3. Mengapa SSG tidak menampilkan produk baru tanpa build ulang?
+
+Jawab : karena konten di-generate statis saat build, jadi perubahan data baru tidak otomatis muncul di halaman yang sudah dibangun.
+
+4. Mana metode terbaik untuk halaman detail e-commerce?
+
+Jawab : Untuk halaman detail e-commerce, metode terbaik biasanya SSR (Server-Side Rendering) atau SSG dengan fallback/ISR, tergantung kebutuhan:
+- SSR: Bagus kalau data sering berubah atau ada stok/price real-time, karena setiap request selalu dapat data terbaru.
+- SSG + ISR: Bagus kalau mayoritas produk jarang berubah, tapi tetap ingin menampilkan produk baru tanpa build ulang penuh.
+- CSR: Kurang ideal untuk SEO karena konten muncul setelah browser load; cocok untuk fitur interaktif tambahan, bukan halaman utama produk.
+
+5. Apa risiko menggunakan SSG untuk produk yang sering berubah?
+
+Jawab : informasi bisa kadaluarsa atau tidak akurat sampai halaman di-build ulang, menyebabkan pengalaman pengguna kurang up-to-date.
