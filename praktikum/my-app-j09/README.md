@@ -32,3 +32,16 @@
 ![1](public/img/2.png)
 - Hasil `npm run start`
 ![1](public/img/3.png)
+
+### Langkah 4 - Pengujian Perubahan Data
+
+#### Uji 1 - Tambah Data di Database
+1. Menambahkan data di firebase
+![1](public/img/4.png)
+2. Hasil tiap halaman
+- CSR (data bertambah)
+![1](public/img/5.png)
+- SSR (data bertambah)
+![1](public/img/6.png)
+- SSG (data tidak berubah)
+![1](public/img/7.png)
