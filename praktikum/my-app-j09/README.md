@@ -64,3 +64,30 @@
 ![1](public/img/6.png)
 3. Halaman SSG
 ![1](public/img/10.png)
+
+### Tugas 2
+
+1. Tambah Data
+![1](public/img/11.png)
+- CSR
+![1](public/img/12.png)
+- SSR
+![1](public/img/13.png)
+- SSG
+![1](public/img/14.png)
+- SSG setelah build ulang
+![1](public/img/15.png)
+
+2. Hapus Data
+![1](public/img/16.png)
+- CSR
+![1](public/img/5.png)
+- SSR
+![1](public/img/6.png)
+- SSG
+![1](public/img/15.png)
+- SSG setelah build ulang
+![1](public/img/14.png)
+
+Dari hasil diatas, ketika kita melakukan tambah dan hapus data, pada CSR dan SSR halaman akan otomatis terupdate. Berbeda dengan SSG yang harus build ulang dan menjalankannya lagi
+
