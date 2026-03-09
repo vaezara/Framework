@@ -91,3 +91,32 @@
 
 Dari hasil diatas, ketika kita melakukan tambah dan hapus data, pada CSR dan SSR halaman akan otomatis terupdate. Berbeda dengan SSG yang harus build ulang dan menjalankannya lagi
 
+### Tugas 3
+
+Laporan Analisis Praktikum: CSR, SSR, dan SSG
+
+Dalam praktikum ini, saya belajar tentang pre-rendering pada Next.js, yaitu cara membuat halaman web yang sudah berisi HTML sebelum dikirim ke browser. Tujuannya agar halaman bisa lebih cepat tampil dan ramah untuk mesin pencari (SEO). Terdapat tiga metode utama: Client-Side Rendering (CSR), Server-Side Rendering (SSR), dan Static Site Generation (SSG). Ketiga metode ini berbeda pada waktu pengambilan data dan cara halaman dibuat, sehingga mempengaruhi performa dan bagaimana data baru muncul.
+
+1. Analisis CSR (Client-Side Rendering)
+
+Metode CSR mengambil data di browser setelah halaman dimuat. Artinya, saat membuka halaman, browser menjalankan JavaScript untuk mengambil data dari database. Dari percobaan, halaman `/produk` yang menggunakan CSR menampilkan data terbaru secara langsung setiap kali ada perubahan di Firebase. Misalnya, ketika menambahkan produk baru, produk tersebut langsung terlihat tanpa harus membangun ulang aplikasi. Kelebihan CSR adalah mampu menampilkan data dinamis secara real-time dan cocok untuk aplikasi interaktif seperti dashboard. Kekurangannya, halaman awal kadang lambat muncul karena HTML masih kosong, sehingga perlu skeleton loading agar pengguna tidak melihat halaman kosong.
+
+2. Analisis SSR (Server-Side Rendering)
+
+Pada SSR, data diambil dan HTML dibuat di server setiap kali ada permintaan dari pengguna. Halaman yang dikirim ke browser sudah lengkap dengan data terbaru. Dalam percobaan, halaman `/produk/server` langsung menampilkan produk baru saat database diperbarui dan halaman di-refresh. Kelebihan SSR adalah data selalu up-to-date dan SEO lebih baik karena HTML sudah lengkap. Namun, setiap permintaan memerlukan proses di server, sehingga jika banyak pengguna mengakses sekaligus, server bisa berat.
+
+3. Analisis SSG (Static Site Generation)
+
+Berbeda dengan CSR dan SSR, SSG membuat HTML saat proses build aplikasi. Halaman statis ini disimpan dan dikirim ke browser langsung. Dari percobaan, halaman `/produk/static` tidak menampilkan produk baru yang ditambahkan di database sampai dilakukan build ulang dengan perintah npm run build dan npm run start. Kelebihan SSG adalah halaman sangat cepat karena sudah statis, cocok untuk landing page atau konten yang jarang berubah. Kekurangannya adalah data tidak real-time, sehingga setiap perubahan harus melakukan build ulang agar terlihat di halaman.
+
+Perbandingan dan Kesimpulan
+
+Berdasarkan percobaan, perbedaan utama ketiga metode adalah:
+
+CSR : Data baru muncul langsung di browser, cocok untuk aplikasi interaktif.
+
+SSR : Data baru muncul tiap request ke server, lebih SEO-friendly, tapi beban server lebih tinggi.
+
+SSG : Data baru muncul hanya setelah build ulang, halaman sangat cepat, cocok untuk konten statis.
+
+Kesimpulannya, pemilihan metode tergantung kebutuhan aplikasi. Untuk data yang sering berubah, CSR atau SSR lebih tepat. Untuk konten jarang berubah dan butuh kecepatan tinggi, SSG lebih cocok
