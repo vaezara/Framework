@@ -40,3 +40,7 @@
 
 ### Langkah 3 - Implementasi SSR
 ![1](public/img/5.gif)
+
+### Langkah 4 - Implementasi Static Site Generation (Dynamic SSG) 
+![1](public/img/6.png)
+![1](public/img/7.png)
