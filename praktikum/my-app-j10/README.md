@@ -70,3 +70,34 @@ Ketika detail produk di refresh tidak ada request API
 4. Hasil menjalankan ulang `npm run build` dan `npm run start`. Produk yang baru ditambahkan muncul
 ![1](public/img/14.png)
 ![1](public/img/15.png)
+
+### Tugas Praktikum      
+
+#### Tugas 1
+
+1. CSR
+2. SSR
+3. SSG
+
+Sudah diimplementasikan pada `DetailProduk/index.tsx`, dokumentasi akan saya jabarkan di tugas 3
+
+#### Tugas 2
+-------------------------------------------------------------------
+| Aspek            | CSR       | SSR          | SSG               |
+|------------------|-----------|--------------|-------------------|
+| Loading          | Ada       | Cepat        | Cepat             |
+| Build Required   | Tidak     | Tidak        | Ya                |
+| SEO              | Kurang    | Optimal      | Optimal           |
+| Perubahan Data   | Real-time | Tiap request | Harus rebuild     |
+-------------------------------------------------------------------
+
+#### Tugas 3
+
+1. CSR
+![1](public/img/16.gif)
+
+2. SSR
+![1](public/img/17.gif)
+
+3. SSG
+![1](public/img/18.gif)

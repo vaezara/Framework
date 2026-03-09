@@ -1,27 +1,21 @@
-import { useRouter } from "next/router";
-import { useEffect, useState } from "react";
-import TampilanProduk from "../../views/product";
 import useSWR from "swr";
+import TampilanProduk from "../../views/product";
 import fetcher from "../../utils/swr/fetcher";
 
-//const fetcher = (url: string) => fetch(url).then((res) => res.json());
-
-const kategori = () => {
-  // const [isLogin, setIsLogin] = useState(false);
-  const [products, setProducts] = useState([]);
-   // console.log("products:", products);
-
+const Kategori = () => {
   const { data, error, isLoading } = useSWR("/api/produk", fetcher);
-  //cek apakah data, error, dan isLoading sudah benar
-  // console.log("data:", data);
-  // console.log("error:", error);
-  // console.log("isLoading:", isLoading);
+
+  if (error) return <p>Gagal mengambil data produk.</p>;
 
   return (
     <div>
-      <TampilanProduk products={isLoading ? [] : data.data} />
+      <h1>Halaman Produk CSR</h1>
+      <TampilanProduk
+        products={isLoading ? [] : (data?.data ?? [])}
+        basePath="/produk"
+      />
     </div>
   );
 };
 
-export default kategori;
+export default Kategori;
