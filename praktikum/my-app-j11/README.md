@@ -53,3 +53,12 @@
 
 - Hasil jika salah
 ![1](public/img/9.png)
+
+## F. Perbandingan SSG vs ISR
+---------------------------------------------------------------
+| Aspek            | SSG                | ISR                 |
+|------------------|--------------------|---------------------|
+| Update Data      | Harus build ulang  | Otomatis/Trigger    |
+| Cache            | Static permanen    | Static+Refrseh      |
+| Cocok untuk      | Konten tetap       | Konten semi-dinamis |
+---------------------------------------------------------------
