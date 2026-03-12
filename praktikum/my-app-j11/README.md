@@ -26,3 +26,11 @@
 
 ### Langkah 1 – Tambahkan revalidate
 ![1](public/img/1.png)
+
+### Langkah 2 - Pengujian ISR
+1. Hasil build
+![1](public/img/2.png)
+2. Hasil menambahkan data pada firebase
+![1](public/img/3.png)
+3. Hasil refresh
+![1](public/img/4.png)
