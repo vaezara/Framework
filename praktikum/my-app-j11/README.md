@@ -42,3 +42,6 @@
 
 ### Langkah 2 - Tambahkan Parameter Data
 ![1](public/img/6.png)
+
+### Langkah 3 – Tambahkan Token Security
+![1](public/img/7.png)
