@@ -39,3 +39,6 @@
 
 ### Langkah 1 - Buat API revalidate
 ![1](public/img/5.png)
+
+### Langkah 2 - Tambahkan Parameter Data
+![1](public/img/6.png)
