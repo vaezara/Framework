@@ -45,3 +45,11 @@
 
 ### Langkah 3 – Tambahkan Token Security
 ![1](public/img/7.png)
+
+## E. Pengujian Manual Revalidation
+
+- Hasil jika benar
+![1](public/img/8.png)
+
+- Hasil jika salah
+![1](public/img/9.png)

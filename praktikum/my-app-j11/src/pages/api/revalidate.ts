@@ -10,7 +10,7 @@ export default async function handler(
   req: NextApiRequest,
   res: NextApiResponse<Data>,
 ) {
-    if (req.query.data !== process.env.REVALIDATE_TOKEN) {
+    if (req.query.token !== process.env.REVALIDATE_TOKEN) {
         return res.status(401).json({
             revalidated: false,
             message: "Insert correct token",
@@ -19,7 +19,7 @@ export default async function handler(
 
     if (req.query.data === "produk") {
         try {
-            await res.revalidate("/product/static");
+            await res.revalidate("/produk/static");
             return res.status(200).json({revalidated: true});
         } catch (error) {
             console.error("Error in API route:", error);
