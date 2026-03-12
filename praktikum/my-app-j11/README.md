@@ -22,7 +22,7 @@
 
 <br><br>
 
-## Hasil Praktikum
+## C. Implementasi ISR Otomatis
 
 ### Langkah 1 – Tambahkan revalidate
 ![1](public/img/1.png)
@@ -34,3 +34,8 @@
 ![1](public/img/3.png)
 3. Hasil refresh
 ![1](public/img/4.png)
+
+## D. On-Demand Revalidation 
+
+### Langkah 1 - Buat API revalidate
+![1](public/img/5.png)
