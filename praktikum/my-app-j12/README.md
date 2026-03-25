@@ -32,3 +32,6 @@
 
 ### Langkah  3 – Redirect Sederhana 
 ![1](public/img/3.png)
+
+### Langkah  4 – Batasi Route Tertentu 
+![1](public/img/4.png)
