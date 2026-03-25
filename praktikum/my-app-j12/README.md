@@ -38,3 +38,14 @@
 
 ### Langkah 5 – Simulasi Sistem Login 
 ![1](public/img/5.gif)
+
+## D. Pengujian
+
+### Uji 1 – isLogin = false
+![1](public/img/5.gif)
+
+### Uji 2 – isLogin = true
+![1](public/img/6.gif)
+
+### Uji 3 – Tambahkan Multiple Route 
+![1](public/img/7.gif)
