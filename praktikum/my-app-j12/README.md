@@ -29,3 +29,6 @@
 
 ### Langkah 2 - Struktur Dasar Middleware
 ![1](public/img/2.png)
+
+### Langkah  3 – Redirect Sederhana 
+![1](public/img/3.png)
