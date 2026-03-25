@@ -49,3 +49,13 @@
 
 ### Uji 3 – Tambahkan Multiple Route 
 ![1](public/img/7.gif)
+
+## E. Perbandingan Middleware vs useEffect
+------------------------------------------------------------------- 
+| Aspek              | useEffect           | Middleware           |
+|--------------------|---------------------|----------------------|
+| Redirect timing    | Setelah render      | Sebelum render       |
+| Glitch             | Ada                 | Tidak                |
+| Security           | Lemah               | Lebih aman           |
+| Skalabilitas       | Harus tiap halaman  | Sekali di middleware |
+-------------------------------------------------------------------
