@@ -62,3 +62,28 @@
 | Cache            | Static permanen    | Static+Refrseh      |
 | Cocok untuk      | Konten tetap       | Konten semi-dinamis |
 ---------------------------------------------------------------
+
+## G. Tugas Praktikum
+
+1. Tambahkan lagi produk pada firebase
+![1](public/img/10.png)
+
+2. Implementasikan ISR dengan revalidate: 10.
+![1](public/img/11.png)
+
+3. Tambahkan endpoint On-Demand Revalidation.
+![1](public/img/11.png)
+
+4. Tambahkan validasi token.
+![1](public/img/12.png)
+
+5. Uji dengan:
+
+- Token benar
+![1](public/img/13.png)
+
+- Token salah
+![1](public/img/14.png)
+
+- Tanpa token
+![1](public/img/15.png)
