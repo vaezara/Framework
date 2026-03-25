@@ -59,3 +59,40 @@
 | Security           | Lemah               | Lebih aman           |
 | Skalabilitas       | Harus tiap halaman  | Sekali di middleware |
 -------------------------------------------------------------------
+
+## F. Tugas Praktikum
+
+1. Buat halaman 
+
+- /products
+![1](public/img/8.png)
+- /about
+![1](public/img/9.png)
+- /login
+![1](public/img/10.png)
+
+2. Implementasikan Middleware
+
+- Redirect ke /login jika belum login.
+- Izinkan akses jika login true.
+![1](public/img/11.png)
+![1](public/img/10.png)
+
+3. Tambahkan proteksi hanya untuk route tertentu.
+![1](public/img/12.png)
+
+4. Dokumentasikan:
+- Screenshot sebelum dan sesudah redirect.
+- Sebelum 
+![1](public/img/10.png)
+- Sesudah
+![1](public/img/8.png)
+- Perbandingan dengan useEffect.
+- useEffect
+1. Redirect terjadi setelah komponen tampil
+2. User bisa melihat halaman sebentar (glitch)
+3. Lebih mudah tapi kurang aman
+- Middleware / proteksi awal
+1. Redirect terjadi sebelum halaman ditampilkan
+2. Tidak ada flicker/glitch
+3. Lebih profesional dan aman
