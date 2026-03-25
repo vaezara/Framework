@@ -87,3 +87,25 @@
 
 - Tanpa token
 ![1](public/img/15.png)
+
+## H. Pertanyaan Analisis
+
+1. Mengapa ISR lebih fleksibel dibanding SSG?
+
+Jawab : ISR lebih fleksibel karena halaman tidak perlu di-build ulang secara manual setiap ada perubahan data. Dengan ISR, halaman bisa diperbarui otomatis berdasarkan waktu tertentu atau saat dipanggil ulang, sedangkan SSG harus rebuild aplikasi setiap ada update.
+
+2. Apa perbedaan revalidate waktu dan on-demand?
+
+Jawab : Revalidate waktu (time-based) akan memperbarui halaman secara otomatis setelah waktu tertentu (misalnya 10 detik). Sedangkan on-demand revalidation hanya terjadi ketika endpoint API dipanggil secara manual, sehingga lebih terkontrol dan bisa langsung update saat dibutuhkan.
+
+3. Mengapa endpoint revalidation harus diamankan?
+
+Jawab : Karena endpoint ini bisa memicu pembaruan halaman. Jika tidak diamankan, siapa saja bisa mengaksesnya dan menyebabkan server melakukan revalidate terus-menerus yang bisa membebani server.
+
+4. Apa risiko jika token tidak digunakan?
+
+Jawab : Tanpa token, endpoint bisa diakses oleh siapa saja. Risikonya adalah penyalahgunaan seperti spam request, beban server meningkat, dan potensi serangan (misalnya DoS ringan).
+
+5. Kapan ISR lebih cocok dibanding SSR?
+
+Jawab : ISR lebih cocok ketika data tidak harus selalu real-time, tetapi tetap perlu diperbarui secara berkala, seperti halaman produk atau blog. ISR lebih hemat performa dibanding SSR karena tidak perlu render ulang di setiap request.
