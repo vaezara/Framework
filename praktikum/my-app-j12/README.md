@@ -30,8 +30,11 @@
 ### Langkah 2 - Struktur Dasar Middleware
 ![1](public/img/2.png)
 
-### Langkah  3 – Redirect Sederhana 
+### Langkah 3 – Redirect Sederhana 
 ![1](public/img/3.png)
 
-### Langkah  4 – Batasi Route Tertentu 
+### Langkah 4 – Batasi Route Tertentu 
 ![1](public/img/4.png)
+
+### Langkah 5 – Simulasi Sistem Login 
+![1](public/img/5.gif)
