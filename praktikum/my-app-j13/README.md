@@ -60,3 +60,16 @@
 Jika belum melakukan sign in maka tidak akan bisa mengakses halaman profile
 ![1](public/img/11.gif)
 
+## F. Pengujian
+
+### Uji 1 - Belum Login
+- Hasil redirect ke home
+![1](public/img/12.gif)
+
+### Uji 2 - Sudah Login
+- Hasil bisa akses profile
+![1](public/img/13.gif)
+
+### Uji 3 - Logout
+- Hasil redirect ke home
+![1](public/img/14.gif)
