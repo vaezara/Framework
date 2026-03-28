@@ -76,6 +76,7 @@ Jika belum melakukan sign in maka tidak akan bisa mengakses halaman profile
 
 ## G. Alur Login NextAuth
 
+```
 User klik Sign In
 ↓
 NextAuth menampilkan form credentials (email & password)
@@ -87,3 +88,15 @@ JWT (JSON Web Token) dibuat
 Session disimpan oleh NextAuth
 ↓
 Frontend mengakses session dengan useSession()
+```
+
+## H. Tugas Praktikum
+
+1. Hasil tampilan login
+![1](public/img/6.png)
+
+2. Hasil tampilan session
+![1](public/img/15.png)
+
+3. Hasil redirect middleware
+![1](public/img/11.gif)
