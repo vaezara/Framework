@@ -35,3 +35,18 @@
 
 ### Langkah 4 - Tambahkan SessionProvider
 ![1](public/img/4.png)
+
+### Langkah 5 - Tambahkan Tombol Login & Logout
+
+1. Hasil menjalankan ``http://localhost:3000/``
+![1](public/img/5.png)
+
+2. Hasil ketika button sign in di klik dan diisi data
+![1](public/img/6.png)
+
+3. Klik sign in maka akan berhasil login dan muncul session
+![1](public/img/7.png)
+
+4. Hasil menjalankan setelah penambahan untuk kode menangkap data session
+![1](public/img/8.gif)
+
