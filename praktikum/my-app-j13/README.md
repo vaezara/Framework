@@ -29,3 +29,6 @@
 
 ### Langkah 2 – Konfigurasi API Auth
 ![1](public/img/2.png)
+
+### Langkah 3 – Tambahkan Secret
+![1](public/img/3.png)
