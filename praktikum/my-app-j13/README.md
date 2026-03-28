@@ -100,3 +100,24 @@ Frontend mengakses session dengan useSession()
 
 3. Hasil redirect middleware
 ![1](public/img/11.gif)
+
+## I. Pertanyaan Analisis
+
+1. Mengapa session menggunakan JWT?
+- Jawab : Karena JWT tidak perlu disimpan di server. Data user sudah ada di dalam token, jadi lebih cepat dan praktis
+
+2. Apa perbedaan authorize() dan callback jwt()?
+- Jawab : 
+  - authorize() : untuk cek login (email & password benar atau tidak)
+  - jwt() : untuk menyimpan data user ke dalam token
+
+3. Mengapa middleware perlu getToken()?
+- Jawab : Karena middleware tidak bisa pakai useSession(), jadi harus pakai getToken() untuk cek user sudah login atau belum
+
+4. Apa risiko jika NEXTAUTH_SECRET tidak digunakan?
+- Jawab : Token jadi tidak aman dan bisa disalahgunakan, serta bisa menyebabkan error pada login.
+
+5. Apa perbedaan autentikasi dan otorisasi dalam sistem ini? 
+- Jawab : 
+  - Autentikasi : cek siapa user (login)
+  - Otorisasi : cek hak akses user (boleh masuk atau tidak)
