@@ -73,3 +73,17 @@ Jika belum melakukan sign in maka tidak akan bisa mengakses halaman profile
 ### Uji 3 - Logout
 - Hasil redirect ke home
 ![1](public/img/14.gif)
+
+## G. Alur Login NextAuth
+
+User klik Sign In
+↓
+NextAuth menampilkan form credentials (email & password)
+↓
+Fungsi authorize() dijalankan
+↓
+JWT (JSON Web Token) dibuat
+↓
+Session disimpan oleh NextAuth
+↓
+Frontend mengakses session dengan useSession()
