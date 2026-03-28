@@ -50,3 +50,6 @@
 4. Hasil menjalankan setelah penambahan untuk kode menangkap data session
 ![1](public/img/8.gif)
 
+## D. Menambahkan Data Tambahan (Full Name)
+![1](public/img/9.gif)
+
