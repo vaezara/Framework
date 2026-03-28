@@ -32,3 +32,6 @@
 
 ### Langkah 3 – Tambahkan Secret
 ![1](public/img/3.png)
+
+### Langkah 4 - Tambahkan SessionProvider
+![1](public/img/4.png)
