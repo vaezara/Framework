@@ -53,3 +53,10 @@
 ## D. Menambahkan Data Tambahan (Full Name)
 ![1](public/img/9.gif)
 
+## E. Proteksi Halaman Profile
+- Tampilan halaman profile
+![1](public/img/10.png)
+- Hasil setelah menambahkan middleware authorization
+Jika belum melakukan sign in maka tidak akan bisa mengakses halaman profile
+![1](public/img/11.gif)
+
