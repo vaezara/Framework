@@ -1,15 +1,10 @@
 import { 
-  getFirestore, 
-  collection, 
-  getDocs,
-  Firestore, 
-  getDoc, 
-  doc,
-  query,
-  addDoc,
-  where,
+  getFirestore,collection, 
+  getDocs,Firestore,getDoc,doc,
+  query,addDoc,where,
 } from "firebase/firestore";
 import { app } from "./firebase";
+import bcrypt from "bcrypt";
 
 const db = getFirestore(app);
 
@@ -33,6 +28,7 @@ export async function signUp(
     email: string;
     fullname: string;
     password: string;
+    role?: string;
   },
   callback: Function,
 ) {
@@ -40,22 +36,44 @@ export async function signUp(
     collection(db, "users"),
     where("email", "==", userData.email),
   );
+
   const querySnapshot = await getDocs(q);
+
   const data = querySnapshot.docs.map((doc) => ({
     id: doc.id,
     ...doc.data(),
   }));
-  // console.log("Query result:", data);
 
-  if (data.length> 0) {
-    callback ({
-      status: "success",
-      message: "User registered succesfully",
-    });
-  } else {
+  if (data.length > 0) {
     callback({
       status: "error",
-      message: "User already exists",
+      message: "Email already exists",
+    });
+    return;
+  }
+
+  if (!userData.password) {
+    callback({
+      status: "error",
+      message: "Password wajib diisi",
+    });
+    return;
+  }
+
+  try {
+    userData.password = await bcrypt.hash(userData.password, 10);
+    userData.role = "user";
+
+    await addDoc(collection(db, "users"), userData);
+
+    callback({
+      status: "success",
+      message: "User registered successfully",
+    });
+  } catch (error: any) {
+    callback({
+      status: "error",
+      message: error.message,
     });
   }
 }

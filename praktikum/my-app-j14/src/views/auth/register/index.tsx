@@ -8,12 +8,14 @@ const TampilanRegister = () => {
   const { push } = useRouter();
   const [error, setError] = useState("");
   const handleSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
+    setError("");
+    setIsLoading(true);
     event.preventDefault();
     const form = event.currentTarget;
     const formData = new FormData(event.currentTarget);
     const email = formData.get("email") as string;
     const fullname = formData.get("fullname") as string;
-    const password = formData.get("p assword") as string;
+    const password = formData.get("password") as string;
     const response = await fetch("/api/register", {
       method: "POST",
       headers: {
@@ -38,6 +40,7 @@ const TampilanRegister = () => {
 
   return (
     <div className={style.register}>
+      {error && <p className={style.register__error}>{error}</p>}
       <h1 className={style.register__title}>Halaman Register</h1>
       <div className={style.register__form}>
         <form onSubmit={handleSubmit}>
@@ -88,8 +91,12 @@ const TampilanRegister = () => {
               className={style.register__form__item__input}
             />
           </div>
-          <button type="submit" className={style.register__form__item__button}>
-            Register
+          <button 
+            type="submit" 
+            className={style.register__form__item__button}
+            disabled={isLoading}
+          >
+            {isLoading ? "Loading..." : "Register"}
           </button>
         </form>
         <br />

@@ -30,3 +30,14 @@
 ### Langkah 2 - Membuat API Register
 ![1](public/img/2.png)
 
+### Langkah 3 - Install bcrypt
+
+- Melakukan install ``npm install bcrypt --force`` dan ``npm install --save-dev @types/bcrypt –force``
+![1](public/img/3.png)
+- Data register berhasil masuk pada firebase
+![1](public/img/4.png)
+- Hasil perbaikan apabila user memasukkan data yang sudah terdaftar
+![1](public/img/5.png)
+- Menambahkan loading pada button
+![1](public/img/6.png)
+
