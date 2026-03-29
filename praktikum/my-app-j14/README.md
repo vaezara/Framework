@@ -58,3 +58,14 @@
 ### Uji 3 - Method GET
 - Muncul message "Method Not Allowed"
 ![1](public/img/8.png)
+
+## E. Struktur Database (Firestore)
+## Struktur Data User
+
+| Field     | Tipe               |
+|-----------|--------------------|
+| fullName  | string             |
+| email     | string             |
+| password  | string (hashed)    |
+| role      | string             |
+| createdAt | timestamp          |
