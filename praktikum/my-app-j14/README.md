@@ -121,3 +121,14 @@ Jawab : Jika email tidak dicek unik, pengguna bisa mendaftar lebih dari satu aku
 Jawab : Role menentukan hak akses pengguna di sistem, misalnya:
 - admin : bisa mengelola data dan user lain
 - member/user : hanya bisa melihat atau mengubah data sendiri
+
+## I. Output yang Diharapkan
+
+Mahasiswa menghasilkan:
+- Form registrasi berfungsi
+- API POST berjalan
+- Email unik tervalidasi
+- Password ter-hash
+- Data tersimpan di Firestore
+- Error tampil di UI
+- Redirect ke login
