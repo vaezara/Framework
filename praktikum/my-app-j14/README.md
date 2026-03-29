@@ -41,3 +41,20 @@
 - Menambahkan loading pada button
 ![1](public/img/6.png)
 
+## D. Pengujian
+
+### Uji 1 - Register Baru
+- Input email baru
+![1](public/img/2.png)
+- Hasil tersimpan di firestore dan password ter hash
+![1](public/img/4.png)
+- Redirect ke login (masih tampilan yang lama)
+![1](public/img/7.png)
+
+### Uji 2 - Email Sudah Ada
+- Muncul message "email already exists"
+![1](public/img/5.png)
+
+### Uji 3 - Method GET
+- Muncul message "Method Not Allowed"
+![1](public/img/8.png)
