@@ -95,3 +95,29 @@ o Email sudah ada
 
 o Database Firestore
 ![1](public/img/4.png)
+
+## H. Pertanyaan Analisis
+
+1. Mengapa password harus di-hash?
+
+Jawab : Password harus di-hash agar tidak disimpan dalam bentuk teks asli. Jika database bocor, password pengguna tetap aman karena hash sulit dikembalikan ke bentuk asli. Hashing juga mencegah penyalahgunaan akun.
+
+2. Apa perbedaan addDoc dan setDoc?
+
+Jawab :
+- addDoc: Menambahkan dokumen baru secara otomatis dengan ID yang di-generate Firestore
+- setDoc: Menyimpan atau menimpa dokumen dengan ID yang ditentukan
+
+3. Mengapa perlu validasi method POST?
+
+Jawab : Validasi method POST memastikan endpoint hanya bisa menerima request pembuatan data, sehingga GET atau request lain tidak bisa menimpa atau mengubah data secara tidak sengaja
+
+4. Apa risiko jika email tidak dicek unik?
+
+Jawab : Jika email tidak dicek unik, pengguna bisa mendaftar lebih dari satu akun dengan email yang sama, yang bisa menyebabkan kesulitan login, kebingungan data user, risiko keamanan dan duplikasi data di database
+
+5. Apa fungsi role pada user?
+
+Jawab : Role menentukan hak akses pengguna di sistem, misalnya:
+- admin : bisa mengelola data dan user lain
+- member/user : hanya bisa melihat atau mengubah data sendiri
