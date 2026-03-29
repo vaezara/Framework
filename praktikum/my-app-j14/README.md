@@ -60,7 +60,8 @@
 ![1](public/img/8.png)
 
 ## E. Struktur Database (Firestore)
-## Struktur Data User
+
+### Struktur Data User
 
 | Field     | Tipe               |
 |-----------|--------------------|
@@ -69,3 +70,28 @@
 | password  | string (hashed)    |
 | role      | string             |
 | createdAt | timestamp          |
+
+## G. Tugas Praktikum
+1. Implementasikan register terhubung database.
+![1](public/img/4.png)
+
+2. Tambahkan validasi:
+o Email wajib
+o Password minimal 6 karakter
+![1](public/img/9.png)
+
+3. Tambahkan role default "member".
+![1](public/img/10.png)
+
+4. Tampilkan pesan error di UI.
+![1](public/img/5.png)
+
+5. Screenshot hasil:
+o Register sukses
+![1](public/img/2.png)
+
+o Email sudah ada
+![1](public/img/5.png)
+
+o Database Firestore
+![1](public/img/4.png)

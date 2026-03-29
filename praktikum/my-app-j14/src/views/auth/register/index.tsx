@@ -7,34 +7,54 @@ const TampilanRegister = () => {
   const [isLoading, setIsLoading] = useState(false);
   const { push } = useRouter();
   const [error, setError] = useState("");
+
   const handleSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
+    event.preventDefault();
     setError("");
     setIsLoading(true);
-    event.preventDefault();
+
     const form = event.currentTarget;
-    const formData = new FormData(event.currentTarget);
-    const email = formData.get("email") as string;
-    const fullname = formData.get("fullname") as string;
-    const password = formData.get("password") as string;
-    const response = await fetch("/api/register", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify({ email, fullname, password }),
-    });
-    // const result = await response.json();
-    // console.log(result);
-    if (response.status === 200) {
-      form.reset();
-      // event.currentTarget.reset();
+    const formData = new FormData(form);
+    const email = (formData.get("email") as string)?.trim();
+    const fullname = (formData.get("fullname") as string)?.trim();
+    const password = (formData.get("password") as string)?.trim();
+
+    // Validasi
+    if (!email) {
+      setError("Email wajib diisi");
       setIsLoading(false);
-      push("/auth/login");
-    } else {
+      return;
+    }
+    if (!fullname) {
+      setError("Fullname wajib diisi");
       setIsLoading(false);
-      setError(
-        response.status === 400 ? "Email already exists" : "An error occurred",
-      );
+      return;
+    }
+    if (!password || password.length < 6) {
+      setError("Password minimal 6 karakter");
+      setIsLoading(false);
+      return;
+    }
+
+    try {
+      const response = await fetch("/api/register", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ email, fullname, password, role: "member" }), // role default
+      });
+
+      if (response.status === 200) {
+        form.reset();
+        setIsLoading(false);
+        push("/auth/login");
+      } else {
+        setIsLoading(false);
+        const resData = await response.json();
+        setError(resData?.message || "Terjadi kesalahan");
+      }
+    } catch (err) {
+      setIsLoading(false);
+      setError("Terjadi kesalahan saat register");
     }
   };
 
@@ -45,10 +65,7 @@ const TampilanRegister = () => {
       <div className={style.register__form}>
         <form onSubmit={handleSubmit}>
           <div className={style.register__form__item}>
-            <label
-              htmlFor="email"
-              className={style.register__form__item__label}
-            >
+            <label htmlFor="email" className={style.register__form__item__label}>
               Email
             </label>
             <input
@@ -61,10 +78,7 @@ const TampilanRegister = () => {
           </div>
 
           <div className={style.register__form__item}>
-            <label
-              htmlFor="fullname"
-              className={style.register__form__item__label}
-            >
+            <label htmlFor="fullname" className={style.register__form__item__label}>
               Fullname
             </label>
             <input
@@ -77,10 +91,7 @@ const TampilanRegister = () => {
           </div>
 
           <div className={style.register__form__item}>
-            <label
-              htmlFor="password"
-              className={style.register__form__item__label}
-            >
+            <label htmlFor="password" className={style.register__form__item__label}>
               Password
             </label>
             <input
@@ -91,8 +102,9 @@ const TampilanRegister = () => {
               className={style.register__form__item__input}
             />
           </div>
-          <button 
-            type="submit" 
+
+          <button
+            type="submit"
             className={style.register__form__item__button}
             disabled={isLoading}
           >
@@ -104,7 +116,6 @@ const TampilanRegister = () => {
           Sudah punya akun? <Link href="/auth/login">Ke Halaman Login</Link>
         </p>
       </div>
-      
     </div>
   );
 };
