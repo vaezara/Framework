@@ -7,7 +7,6 @@ import { app } from "./firebase";
 import bcrypt from "bcrypt";
 
 const db = getFirestore(app);
-
 export async function retrieveProducts(collectionName: string) {
   const snapshot = await getDocs(collection(db, collectionName));
   const data = snapshot.docs.map((doc) => ({
@@ -22,6 +21,21 @@ export async function retrieveDataByID(collectionName: string, id: string) {
   const data = snapshot.data();
   return data;
 }
+
+export async function signIn(
+  email: string) {
+    const q = query(collection(db, "users"), where("email", "==", email));
+    const querySnapshot = await getDocs(q);
+    const data = querySnapshot.docs.map((doc) => ({
+      id: doc.id,
+      ...doc.data(),
+    }));
+    if (data) {
+      return data[0];
+    } else {
+      return null;
+    }
+  }
 
 export async function signUp(
   userData: {

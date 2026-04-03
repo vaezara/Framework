@@ -27,3 +27,7 @@
 ### Langkah 1 – Custom Login Page
 Ketika tombol sign in di klik maka akan langsung diarahkan ke halaman login
 ![1](public/img/1.png)
+
+### Langkah 2 - Handle Login di Frontend
+Tampilan login sudah sesuai dengan halaman registrasi
+![1](public/img/2.png)
