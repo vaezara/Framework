@@ -48,3 +48,20 @@
 
 ## G. Simpan Data Google ke Database 
 ![1](public/img/9.png)
+
+## H. Pengujian
+
+- **Login Google pertama kali** → Data tersimpan di Firestore  
+![1](public/img/9.png)
+
+- **Login Google kedua kali** → Data diupdate  
+![1](public/img/10.png)
+
+- **User role member akses /admin** → Redirect  
+![1](public/img/11.png)
+
+- **User role admin akses /admin** → Bisa masuk
+![1](public/img/12.png)
+
+- **Avatar tampil** → Ya
+![1](public/img/8.png)
