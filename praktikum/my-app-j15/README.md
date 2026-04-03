@@ -115,3 +115,25 @@ Collection: users
 | Role       | Tidak ada  | Ada             |
 | Redirect   | Manual     | Callback URL    |
 | Middleware | Basic      | Role-based      |
+
+## G. Tugas Praktikum
+
+1. Implementasikan login database.
+![1](public/img/2.png)
+![1](public/img/4.png)
+
+2. Tambahkan role pada user.
+![1](public/img/13.png)
+
+3. Buat halaman:
+- /profile
+![1](public/img/14.png)
+
+- /admin
+![1](public/img/11.png)
+
+4. Proteksi /admin hanya untuk admin.
+![1](public/img/15.png)
+
+5. Implementasikan callback URL
+![1](public/img/7.png)
