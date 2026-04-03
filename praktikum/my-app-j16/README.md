@@ -35,3 +35,6 @@
 
 ### Langkah 4 – Buat OAuth Credentials
 ![1](public/img/4.png)
+
+## C. Tambahkan Environment Variables 
+![1](public/img/5.png)
