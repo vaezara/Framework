@@ -42,3 +42,6 @@ Tampilan login sudah sesuai dengan halaman registrasi
 ![1](public/img/5.png)
 - Hasil setelah perbaikan
 ![1](public/img/6.png)
+
+### Langkah 5 - Callback URL Logic
+![1](public/img/7.png)
