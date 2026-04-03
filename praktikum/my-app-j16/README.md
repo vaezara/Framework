@@ -26,3 +26,6 @@
 
 ### Langkah 1 – Masuk ke Google Cloud Console
 ![1](public/img/1.png)
+
+### Langkah 2 – Buat Project Baru
+![1](public/img/2.png)
