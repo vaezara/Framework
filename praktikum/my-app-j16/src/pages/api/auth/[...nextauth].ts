@@ -62,6 +62,7 @@ export const authOptions: NextAuthOptions = {
           image: user.image,
           type: account.provider,
         };
+        
       }
       return token;
     },

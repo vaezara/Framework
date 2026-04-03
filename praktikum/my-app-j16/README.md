@@ -41,3 +41,6 @@
 
 ## D. Konfigurasi Google Provider di NextAuth dan Handle Callback JWT & Session
 ![1](public/img/6.png)
+
+## E. Tambahkan Button Login Google 
+![1](public/img/7.png)
