@@ -105,3 +105,13 @@ Collection: users
 | role      |  string          |
 | fullName  |  string          |
 --------------------------------
+
+## F. Perbandingan Sistem
+
+| Fitur      | Sebelum    | Sekarang        |
+|------------|------------|-----------------|
+| Login      | Hardcoded  | Database        |
+| Password   | Plaintext  | Hashed          |
+| Role       | Tidak ada  | Ada             |
+| Redirect   | Manual     | Callback URL    |
+| Middleware | Basic      | Role-based      |
