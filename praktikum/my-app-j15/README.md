@@ -31,3 +31,6 @@ Ketika tombol sign in di klik maka akan langsung diarahkan ke halaman login
 ### Langkah 2 - Handle Login di Frontend
 Tampilan login sudah sesuai dengan halaman registrasi
 ![1](public/img/2.png)
+
+### Langkah 3 – Authorize di NextAuth (Database Login)
+![1](public/img/3.png)
