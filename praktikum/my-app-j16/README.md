@@ -32,3 +32,6 @@
 
 ### Langkah 3 – Konfigurasi OAuth Consent Screen
 ![1](public/img/3.png)
+
+### Langkah 4 – Buat OAuth Credentials
+![1](public/img/4.png)
