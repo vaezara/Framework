@@ -137,3 +137,20 @@ Collection: users
 
 5. Implementasikan callback URL
 ![1](public/img/7.png)
+
+## H. Pertanyaan Analisis
+
+1. Mengapa password harus diverifikasi dengan bcrypt.compare?
+Jawab : Karena password yang disimpan di database sudah dalam bentuk hash (terenkripsi), bukan teks asli. bcrypt.compare digunakan untuk mencocokkan password yang diinput user dengan hash tersebut secara aman, tanpa perlu membuka atau mengetahui password aslinya.
+
+2. Mengapa role disimpan di token?
+Jawab : Agar sistem bisa mengetahui hak akses user (misalnya admin atau user) tanpa perlu mengambil data dari database berulang kali. Dengan menyimpan role di token, proses autentikasi jadi lebih cepat dan efisien.
+
+3. Apa fungsi callbackUrl?
+Jawab : callbackUrl digunakan untuk menentukan halaman tujuan setelah login berhasil. Misalnya, jika user ingin membuka halaman tertentu tapi harus login dulu, setelah login user akan diarahkan kembali ke halaman tersebut.
+
+4. Mengapa middleware penting untuk security?
+Jawab : Middleware berfungsi untuk menyaring akses sebelum user masuk ke halaman. Dengan middleware, sistem bisa mengecek apakah user sudah login dan memiliki izin yang sesuai.
+
+5. Apa risiko jika role tidak dicek di middleware?
+Jawab : User bisa mengakses halaman yang tidak sesuai dengan haknya, misalnya user biasa bisa masuk ke halaman admin.
