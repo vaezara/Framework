@@ -38,3 +38,6 @@
 
 ## C. Tambahkan Environment Variables 
 ![1](public/img/5.png)
+
+## D. Konfigurasi Google Provider di NextAuth dan Handle Callback JWT & Session
+![1](public/img/6.png)
