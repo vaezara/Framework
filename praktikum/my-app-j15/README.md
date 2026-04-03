@@ -34,3 +34,11 @@ Tampilan login sudah sesuai dengan halaman registrasi
 
 ### Langkah 3 – Authorize di NextAuth (Database Login)
 ![1](public/img/3.png)
+
+### Langkah 4 – Tambahkan Role ke Token
+- Hasil login akun
+![1](public/img/4.png)
+- Terdapat error
+![1](public/img/5.png)
+- Hasil setelah perbaikan
+![1](public/img/6.png)

@@ -1,7 +1,7 @@
 import { signIn } from "@/utils/db/servicefirebase";
 import NextAuth, { NextAuthOptions } from "next-auth";
 import CredentialsProvider from "next-auth/providers/credentials";
-import bcrypt from "bcrypt";
+import bcrypt from "bcryptjs";
 
 export const authOptions:NextAuthOptions = {
   session: {
@@ -17,26 +17,31 @@ export const authOptions:NextAuthOptions = {
         password: { label: "Password", type: "password" }
       },
       async authorize(credentials) {
-        if (!credentials?.email || !credentials.password) return null;
+        if (!credentials) return null;
 
+        console.log("credentials", credentials);
         const user: any = await signIn(credentials.email);
-        
-        if (user) {
-          const isPasswordValid = await bcrypt.compare(
-            credentials.password,
-            user.password
-          );
-          if (isPasswordValid) {
-            return {
-              id: user.id,
-              email: user.email,
-              fullname: user.fullname,
-              role: user.role,
-            };
-          }
+        console.log("user from firebase:", user);
+
+        if (!user) return null;
+
+        const isPasswordValid = await bcrypt.compare(
+          credentials.password,
+          user.password
+        );
+        console.log("password valid?", isPasswordValid);
+
+        if (isPasswordValid) {
+          return {
+            id: user.id,
+            email: user.email,
+            fullname: user.fullname,
+            role: user.role,
+          };
         }
+
         return null;
-      },
+      }
     }),
   ],
   callbacks: {
@@ -44,6 +49,7 @@ export const authOptions:NextAuthOptions = {
       if (account?.provider === "credentials" && user) {
         token.email = user.email;
         token.fullname = user.fullname;
+        token.role = user.role;
       }
       return token
     },
@@ -53,6 +59,9 @@ export const authOptions:NextAuthOptions = {
       }
       if (token.fullname) {
         session.user.fullname = token.fullname;
+      }
+      if (token.role) {
+        session.user.role = token.role;
       }
       return session;
     },
