@@ -45,3 +45,13 @@ Tampilan login sudah sesuai dengan halaman registrasi
 
 ### Langkah 5 - Callback URL Logic
 ![1](public/img/7.png)
+
+### Langkah 6 – Membuat halaman Admin dan authoriz
+- Hasil membuka halaman produk pada role user
+![1](public/img/8.png)
+- Hasil membuka halaman admin pada role user (kembali ke home)
+![1](public/img/9.png)
+- Mengubah role di firebase
+![1](public/img/10.png)
+- Hasil membuka halaman admin dengan role admin
+![1](public/img/11.png)
