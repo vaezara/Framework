@@ -55,3 +55,41 @@ Tampilan login sudah sesuai dengan halaman registrasi
 ![1](public/img/10.png)
 - Hasil membuka halaman admin dengan role admin
 ![1](public/img/11.png)
+
+## D. Pengujian
+
+### Uji 1 – Login Valid
+Input:
+• Email benar
+• Password benar
+Hasil:
+• Login berhasil
+• Redirect sesuai callbackUrl
+![1](public/img/4.png)
+
+### Uji 2 – Password Salah
+Input:
+• Email benar
+• Password salah
+Hasil:
+• Error message tampil
+• Tidak login
+![1](public/img/12.png)
+
+### Uji 3 – Akses Admin sebagai User
+Login sebagai:
+• role: user
+Akses:
+/admin
+Hasil:
+• Redirect ke home
+![1](public/img/9.png)
+
+### Uji 4 – Akses Admin sebagai Admin
+Login sebagai:
+• role: admin
+Akses:
+/admin
+Hasil:
+• Bisa masuk halaman admin
+![1](public/img/11.png)
