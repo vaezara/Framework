@@ -93,3 +93,15 @@ Akses:
 Hasil:
 • Bisa masuk halaman admin
 ![1](public/img/11.png)
+
+## E. Struktur Database Users
+
+Collection: users
+-------------------------------|
+| Field     |  Tipe            |
+-------------------------------|
+| email     |  string          |
+| password  |  string (hashed) |
+| role      |  string          |
+| fullName  |  string          |
+--------------------------------
