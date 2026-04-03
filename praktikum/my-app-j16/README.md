@@ -29,3 +29,6 @@
 
 ### Langkah 2 – Buat Project Baru
 ![1](public/img/2.png)
+
+### Langkah 3 – Konfigurasi OAuth Consent Screen
+![1](public/img/3.png)
