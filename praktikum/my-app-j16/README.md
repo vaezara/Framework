@@ -44,3 +44,7 @@
 
 ## E. Tambahkan Button Login Google 
 ![1](public/img/7.png)
+![1](public/img/8.png)
+
+## G. Simpan Data Google ke Database 
+![1](public/img/9.png)
