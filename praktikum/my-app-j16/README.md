@@ -84,3 +84,23 @@ Jawab : Multi-role memungkinkan aplikasi mengatur hak akses berbeda untuk user, 
 
 5. Apa risiko jika tidak menyimpan user ke database?
 Jawab : Tidak bisa menyimpan role atau data tambahan, kontrol akses terbatas dan bisa menimbulkan kesulitan manajemen user.
+
+## J. Tugas Mandiri
+
+1. Tambahkan role editor
+![1](public/img/13.png)
+
+2. Buat halaman khusus editor
+![1](public/img/14.png)
+
+3. Tambahkan provider GitHub
+![1](public/img/15.png)
+![1](public/img/16.png)
+![1](public/img/17.png)
+
+4. Refactor service agar reusable
+![1](public/img/18.png)
+![1](public/img/19.png)
+
+5. Gunakan next/image untuk optimasi avatar
+![1](public/img/20.png)
