@@ -6,6 +6,13 @@ const nextConfig = {
       'lh3.googleusercontent.com', // untuk avatar Google
       'avatars.githubusercontent.com', // kalau nanti pakai GitHub
     ],
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'assets.adidas.com',
+        port: '',
+      }
+    ],
   },
 }
 

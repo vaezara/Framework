@@ -26,3 +26,6 @@
 
 ### Langkah 1 – Optimasi Gambar Lokal (Public Folder) 
 ![1](public/img/1.png)
+
+### Langkah 2 - Optimasi Gambar Remote (External URL) 
+![1](public/img/2.png)
