@@ -51,4 +51,6 @@ lazyOnload          |   Setelah semua selesai
 worker              |   Web worker
 ----------------------------------------------------
 
+## Praktikum 4 – Optimasi Avatar dengan next/image 
+![1](public/img/5.png)
 
