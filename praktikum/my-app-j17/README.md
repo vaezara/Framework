@@ -40,3 +40,15 @@
 ## Langkah 1 - Menggunakan next/script
 Ketika halaman di refresh, tulisan myapp akan berkedip
 ![1](public/img/4.png)
+
+## Langkah 2 - Strategi Script
+----------------------------------------------------
+  Strategy          |            Fungsi
+----------------------------------------------------
+beforeInteractive   |   Sebelum halaman interaktif
+afterInteractive    |   Setelah halaman interaktif
+lazyOnload          |   Setelah semua selesai
+worker              |   Web worker
+----------------------------------------------------
+
+
