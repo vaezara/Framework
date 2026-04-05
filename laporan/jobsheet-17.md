@@ -4,7 +4,7 @@
 <br><br>
 
 <p align="center">
-  <img src="public/img/logo_polinema.png" width="40%">
+  <img src="../praktikum/my-app-j17/public/img/logo_polinema.png" width="40%">
 </p>
 
 <br><br>
@@ -25,21 +25,21 @@
 ## Praktikum 1 – Image Optimizatio
 
 ### Langkah 1 – Optimasi Gambar Lokal (Public Folder) 
-![1](public/img/1.png)
+![1](../praktikum/my-app-j17/public/img/1.png)
 
 ### Langkah 2 - Optimasi Gambar Remote (External URL) 
-![1](public/img/2.png)
+![1](../praktikum/my-app-j17/public/img/2.png)
 
 ## Praktikum 2 – Font Optimization
 
 ## Langkah 1 - Menggunakan next/font 
-![1](public/img/3.png)
+![1](../praktikum/my-app-j17/public/img/3.png)
 
 ## Praktikum 3 - Script Optimization
 
 ## Langkah 1 - Menggunakan next/script
 Ketika halaman di refresh, tulisan myapp akan berkedip
-![1](public/img/4.png)
+![1](../praktikum/my-app-j17/public/img/4.png)
 
 ## Langkah 2 - Strategi Script
 ------------------------------------------------------
@@ -52,24 +52,24 @@ Ketika halaman di refresh, tulisan myapp akan berkedip
 ------------------------------------------------------
 
 ## Praktikum 4 – Optimasi Avatar dengan next/image 
-![1](public/img/5.png)
+![1](../praktikum/my-app-j17/public/img/5.png)
 
 ## Tugas Praktikum
 
 1. Optimasi semua image di project menggunakan next/image
-![1](public/img/6.png)
+![1](../praktikum/my-app-j17/public/img/6.png)
 
 2. Gunakan minimal 1 font dari next/font
-![1](public/img/7.png)
+![1](../praktikum/my-app-j17/public/img/7.png)
 
 3. Tambahkan script Google Analytics menggunakan next/
-![1](public/img/8.png)
+![1](../praktikum/my-app-j17/public/img/8.png)
 
 4. Terapkan dynamic import pada minimal 1 komponen
-![1](public/img/9.png)
+![1](../praktikum/my-app-j17/public/img/9.png)
 
 5. Dokumentasikan perubahan performa (screenshot Lighthouse)
-![1](public/img/10.png)
+![1](../praktikum/my-app-j17/public/img/10.png)
 
 ## Refleksi dan Diskusi
 
