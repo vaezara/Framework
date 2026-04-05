@@ -3,6 +3,8 @@ import { useEffect, useState } from "react";
 import TampilanProduk from "../../views/product";
 import useSWR from "swr";
 import fetcher from "../../utils/swr/fetcher";
+import AppShell from "../../components/layouts/Appshell";
+import { ProductType } from "@/types/Product.type";
 
 //const fetcher = (url: string) => fetch(url).then((res) => res.json());
 

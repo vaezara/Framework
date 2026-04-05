@@ -1,8 +1,13 @@
 import { useRouter } from "next/router";
-import Navbar from "../navbar";
+//import Navbar from "../navbar";
+import dynamic from "next/dynamic";
 import { Roboto, Open_Sans } from "next/font/google";
 
 const disableNavbar = ['/auth/login', '/auth/register', '/404', '/maintenance'];
+
+// Dynamic imports
+const Navbar = dynamic(() => import("../navbar"), { ssr: false });
+const TampilanProduk = dynamic(() => import("../../../views/product"), { ssr: false, loading: () => <p>Loading produk...</p> });
 
 type AppShellProps = {
     children: React.ReactNode;
