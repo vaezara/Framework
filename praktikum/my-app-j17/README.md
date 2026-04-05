@@ -54,3 +54,20 @@ worker              |   Web worker
 ## Praktikum 4 – Optimasi Avatar dengan next/image 
 ![1](public/img/5.png)
 
+## Tugas Praktikum
+
+1. Optimasi semua image di project menggunakan next/image
+![1](public/img/6.png)
+
+2. Gunakan minimal 1 font dari next/font
+![1](public/img/7.png)
+
+3. Tambahkan script Google Analytics menggunakan next/
+![1](public/img/8.png)
+
+4. Terapkan dynamic import pada minimal 1 komponen
+![1](public/img/9.png)
+
+5. Dokumentasikan perubahan performa (screenshot Lighthouse)
+![1](public/img/10.png)
+

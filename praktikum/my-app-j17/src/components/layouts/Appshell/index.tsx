@@ -1,6 +1,6 @@
 import { useRouter } from "next/router";
 import Navbar from "../navbar";
-import { Roboto } from "next/font/google";
+import { Roboto, Open_Sans } from "next/font/google";
 
 const disableNavbar = ['/auth/login', '/auth/register', '/404', '/maintenance'];
 
@@ -13,14 +13,25 @@ const roboto = Roboto({
     weight: ['400', '500', '700'],
 });
 
+const openSans = Open_Sans({
+    subsets: ['latin'],
+    weight: ['400', '600', '700'],
+});
+
 const AppShell = (props:AppShellProps) => {
     const { children } = props;
     const { pathname } = useRouter();
     return (
-        <main className={roboto.className}>
-            {!disableNavbar.includes(pathname) && <Navbar />}
-            {children}
-        </main>
+        <main>
+            {!disableNavbar.includes(pathname) && (
+                <div className={roboto.className}>
+                <Navbar />
+                </div>
+            )}
+            <div className={openSans.className}>
+                {children}
+            </div>
+        </main>     
     );
 };
 
