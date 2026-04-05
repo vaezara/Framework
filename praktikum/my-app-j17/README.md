@@ -22,10 +22,15 @@
 
 <br><br>
 
-## Praktikum 1
+## Praktikum 1 – Image Optimizatio
 
 ### Langkah 1 – Optimasi Gambar Lokal (Public Folder) 
 ![1](public/img/1.png)
 
 ### Langkah 2 - Optimasi Gambar Remote (External URL) 
 ![1](public/img/2.png)
+
+## Praktikum 2 – Font Optimization
+
+## Langkah 1 - Menggunakan next/font 
+![1](public/img/3.png)
