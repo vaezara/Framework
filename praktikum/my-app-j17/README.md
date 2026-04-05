@@ -34,3 +34,9 @@
 
 ## Langkah 1 - Menggunakan next/font 
 ![1](public/img/3.png)
+
+## Praktikum 3 - Script Optimization
+
+## Langkah 1 - Menggunakan next/script
+Ketika halaman di refresh, tulisan myapp akan berkedip
+![1](public/img/4.png)
