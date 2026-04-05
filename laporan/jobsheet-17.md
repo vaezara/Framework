@@ -42,14 +42,12 @@ Ketika halaman di refresh, tulisan myapp akan berkedip
 ![1](../praktikum/my-app-j17/public/img/4.png)
 
 ## Langkah 2 - Strategi Script
-------------------------------------------------------
-|  Strategy           |            Fungsi            |
-------------------------------------------------------
-| beforeInteractive   |   Sebelum halaman interaktif |
-| afterInteractive    |   Setelah halaman interaktif |
-| lazyOnload          |   Setelah semua selesai      |
-| worker              |   Web worker                 |
-------------------------------------------------------
+| Strategy | Fungsi |
+| :--- | :--- |
+| **beforeInteractive** | Dimuat sebelum halaman menjadi interaktif (cocok untuk skrip kritis). |
+| **afterInteractive** | Dimuat segera setelah halaman menjadi interaktif (default). |
+| **lazyOnload** | Dimuat saat waktu luang (idle), setelah semua sumber daya selesai dimuat. |
+| **worker** | Dimuat di dalam Web Worker untuk mengurangi beban pada main thread. |
 
 ## Praktikum 4 – Optimasi Avatar dengan next/image 
 ![1](../praktikum/my-app-j17/public/img/5.png)
