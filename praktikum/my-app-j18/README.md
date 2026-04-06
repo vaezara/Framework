@@ -32,3 +32,6 @@
 
 ### Langkah 3 - Tambahkan script di package.json
 ![1](public/img/3.png)
+
+## Praktikum 2 – Struktur Folder Testing
+![1](public/img/4.png)
