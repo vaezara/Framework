@@ -82,5 +82,7 @@
 - Hasil testing halaman produk
 ![1](public/img/16.png)
 
-- Hasil index.html setelah diperbaiki
+## Praktikum 8 - Menangani Indefined Data
+
+- Hasil menjalankan npm run test:coverage akan error
 ![1](public/img/17.png)
