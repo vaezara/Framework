@@ -76,3 +76,11 @@
 
 - Hasil menambahkan About (dibuat salah)
 ![1](public/img/15.png)
+
+## Praktikum 7 – Testing Page dengan Router (Mocking)
+
+- Hasil testing halaman produk
+![1](public/img/16.png)
+
+- Hasil index.html setelah diperbaiki
+![1](public/img/17.png)
