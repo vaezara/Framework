@@ -68,3 +68,11 @@
 
 - Hasil dari ``index.html``
 ![1](public/img/13.png)
+
+## Praktikum 6 - Testing dengan getByTestId
+
+- Hasil menambahkan About Page
+![1](public/img/14.png)
+
+- Hasil menambahkan About (dibuat salah)
+![1](public/img/15.png)
