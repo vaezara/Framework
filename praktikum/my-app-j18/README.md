@@ -86,3 +86,8 @@
 
 - Hasil menjalankan npm run test:coverage akan error
 ![1](public/img/17.png)
+
+## Analisis Coverage
+
+Jika dilihat aplikasi yang dibuat masih 5% jadi perlu banyak perbaikan sebelum proses deploy.
+![1](public/img/18.png)
