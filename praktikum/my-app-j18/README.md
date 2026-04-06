@@ -46,3 +46,14 @@
 
 ### Langkah 3 - Jalankan Testing
 ![1](public/img/7.png)
+
+## Praktikum 4 - Coverage Report
+
+- Menjalankan ``npm run test:coverage``
+![1](public/img/8.png)
+
+- Folder /coverage
+![1](public/img/9.png)
+
+- Hasil
+![1](public/img/10.png)
