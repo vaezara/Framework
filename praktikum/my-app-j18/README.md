@@ -91,3 +91,30 @@
 
 Jika dilihat aplikasi yang dibuat masih 5% jadi perlu banyak perbaikan sebelum proses deploy.
 ![1](public/img/18.png)
+
+## Tugas Praktikum
+
+1. Buat unit test untuk:
+o Halaman Product
+o 1 Komponen
+- Hasil unit test halaman produk dan about
+![1](public/img/19.png)
+![1](public/img/20.png)
+
+2. Gunakan minimal:
+o 1 Snapshot test
+o 1 toBe()
+o 1 getByTestId()
+- Hasil menggunakannya pada halaman produk dan about
+![1](public/img/21.png)
+![1](public/img/22.png)
+
+3. Buat coverage minimal 50%
+![1](public/img/23.png)
+
+4. Lakukan mocking untuk router
+![1](public/img/24.png)
+
+5. Dokumentasikan hasil coverage
+![1](public/img/19.png)
+![1](public/img/20.png)
