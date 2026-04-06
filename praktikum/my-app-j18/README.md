@@ -57,3 +57,14 @@
 
 - Hasil
 ![1](public/img/10.png)
+
+## Praktikum 5 - Konfigurasi Coverage Lengkap
+
+- update ``jest.config.mjs``
+![1](public/img/11.png)
+
+- Menjalankan ``npm run test:coverage``
+![1](public/img/12.png)
+
+- Hasil dari ``index.html``
+![1](public/img/13.png)
