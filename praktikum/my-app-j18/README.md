@@ -118,3 +118,20 @@ o 1 getByTestId()
 5. Dokumentasikan hasil coverage
 ![1](public/img/19.png)
 ![1](public/img/20.png)
+
+## Diskusi dan Refleksi
+
+1. Mengapa unit testing penting sebelum production?
+Jawab : Unit testing penting sebelum production karena memastikan setiap bagian kode bekerja sesuai harapan dan mengurangi risiko bug.
+
+2. Mengapa branch coverage sulit mencapai 100%?
+Jawab : Branch coverage sulit mencapai 100% karena beberapa kondisi atau error handling sulit direplikasi dalam test.
+
+3. Apa itu mocking?
+Jawab : Mocking adalah membuat versi tiruan dari fungsi atau modul agar test bisa dijalankan tanpa tergantung lingkungan asli.
+
+4. Kapan snapshot test digunakan?
+Jawab : Snapshot test digunakan untuk memeriksa apakah tampilan UI tetap konsisten setelah perubahan kode.
+
+5. Apakah semua file harus dites?
+Jawab : Tidak semua file harus dites, hanya fokus pada kode yang kritikal, kompleks, atau berisiko menimbulkan error.
