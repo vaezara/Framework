@@ -24,3 +24,6 @@
 
 ## Praktikum 1 – Membuat Repository GitHub
 ![1](public/img/1.png)
+
+## Praktikum 2 – Deployment ke Vercel
+![1](public/img/2.png)
