@@ -35,3 +35,14 @@
 
 ## Praktikum 2 – Struktur Folder Testing
 ![1](public/img/4.png)
+
+## Praktikum 3 – Testing Halaman About
+
+### Langkah 1 - Buat File Testing
+![1](public/img/5.png)
+
+### Langkah 2 - Contoh Testing Snapshot. Pada about.spec.tsx tambahkan code berikut :
+![1](public/img/6.png)
+
+### Langkah 3 - Jalankan Testing
+![1](public/img/7.png)
