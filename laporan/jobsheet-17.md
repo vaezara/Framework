@@ -1,4 +1,4 @@
-## <p align = "center">LAPORAN PRAKTIKUM JOBSHEET 16</p>
+## <p align = "center">LAPORAN PRAKTIKUM JOBSHEET 17</p>
 ## <p align = "center">OPTIMIZE</p>
 
 <br><br>
@@ -47,7 +47,7 @@ Ketika halaman di refresh, tulisan myapp akan berkedip
 | **beforeInteractive** | Dimuat sebelum halaman menjadi interaktif (cocok untuk skrip kritis). |
 | **afterInteractive** | Dimuat segera setelah halaman menjadi interaktif (default). |
 | **lazyOnload** | Dimuat saat waktu luang (idle), setelah semua sumber daya selesai dimuat. |
-| **worker** | Dimuat di dalam Web Worker untuk mengurangi beban pada main thread. |
+| **worker** | Dimuat di dalam Web Worker untuk mengurangi beban pada main thread. | 
 
 ## Praktikum 4 – Optimasi Avatar dengan next/image 
 ![1](../praktikum/my-app-j17/public/img/5.png)
