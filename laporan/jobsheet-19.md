@@ -4,7 +4,7 @@
 <br><br>
 
 <p align="center">
-  <img src="public/img/logo_polinema.png" width="40%">
+  <img src="../praktikum/my-app-j19/public/img/logo_polinema.png" width="40%">
 </p>
 
 <br><br>
@@ -23,67 +23,67 @@
 <br><br>
 
 ## Praktikum 1 – Membuat Repository GitHub
-![1](public/img/1.png)
+![1](../praktikum/my-app-j19/public/img/1.png)
 
 ## Praktikum 2 – Deployment ke Vercel
-![1](public/img/2.png)
+![1](../praktikum/my-app-j19/public/img/2.png)
 
 Hasil 
-![1](public/img/3.png)
+![1](../praktikum/my-app-j19/public/img/3.png)
 
 ## Praktikum 3 – Menambahkan Environment Variable di Verce
 Hasil setelah redeploy
-![1](public/img/4.png)
+![1](../praktikum/my-app-j19/public/img/4.png)
 
 ## Praktikum 4 – Konfigurasi Google OAuth Productio
 Setting Authorized origins dan URL
-![1](public/img/5.png)
+![1](../praktikum/my-app-j19/public/img/5.png)
 
 Hasil redeploy
-![1](public/img/6.png)
+![1](../praktikum/my-app-j19/public/img/6.png)
 
 ## Praktikum 5 - Pengujian Setelah Deployment
 
 • /
-![1](public/img/8.png)
+![1](../praktikum/my-app-j19/public/img/8.png)
 
 • /about
-![1](public/img/9.png)
+![1](../praktikum/my-app-j19/public/img/9.png)
 
 • /product
-![1](public/img/10.png)
+![1](../praktikum/my-app-j19/public/img/10.png)
 
 • /profile
-![1](public/img/7.png)
+![1](../praktikum/my-app-j19/public/img/7.png)
 
 • Login Google
-![1](public/img/13.png)
-![1](public/img/12.png)
+![1](../praktikum/my-app-j19/public/img/13.png)
+![1](../praktikum/my-app-j19/public/img/12.png)
 
 • Login credential biasa
-![1](public/img/11.png)
-![1](public/img/8.png)
+![1](../praktikum/my-app-j19/public/img/11.png)
+![1](../praktikum/my-app-j19/public/img/8.png)
 
 ## Tugas Praktikum
 1. Deploy project Next.js ke 
-![1](public/img/6.png)
+![1](../praktikum/my-app-j19/public/img/6.png)
 
 2. Pastikan API tidak menggunakan localhost
 
 3. Konfigurasikan Google OAuth production
-![1](public/img/5.png)
+![1](../praktikum/my-app-j19/public/img/5.png)
 
 4. Lakukan minimal 1 redeploy
-![1](public/img/6.png)
+![1](../praktikum/my-app-j19/public/img/6.png)
 
 5. Dokumentasikan:
 
 o Screenshot dashboard Vercel
-![1](public/img/8.png)
+![1](../praktikum/my-app-j19/public/img/8.png)
 
 o URL hasil deployment
 ``https://testing-praktikum-pbf-lagi.vercel.app/``
 
 o Screenshot login Google berhasil
-![1](public/img/13.png)
-![1](public/img/12.png)
+![1](../praktikum/my-app-j19/public/img/13.png)
+![1](../praktikum/my-app-j19/public/img/12.png)
