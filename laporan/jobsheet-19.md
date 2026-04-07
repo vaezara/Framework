@@ -87,3 +87,21 @@ o URL hasil deployment
 o Screenshot login Google berhasil
 ![1](../praktikum/my-app-j19/public/img/13.png)
 ![1](../praktikum/my-app-j19/public/img/12.png)
+
+## Refleksi dan Diskusi
+
+1. Mengapa localhost tidak boleh digunakan di production?
+Jawab : Karena localhost hanya bisa diakses secara lokal, tidak bisa diakses publik. production harus pakai domain/public IP.
+
+2. Mengapa SSG bisa gagal saat build?
+Jawab : Karena SSG membutuhkan data saat build, jika API/data tidak tersedia (misal localhost), build akan gagal.
+
+3. Apa perbedaan SSR dan SSG saat deployment?
+- SSR: halaman dibangun saat request → selalu up-to-date.
+- SSG: halaman dibangun saat build → cepat tapi statis.
+
+4. Mengapa perlu redeploy setelah menambahkan environment?
+Jawab : Karena perubahan environment variabel baru akan diterapkan hanya saat build/deploy.
+
+5. Apa fungsi redirect URI pada OAuth?
+Jawab : Untuk menentukan alamat tujuan setelah login berhasil agar token dikirim ke aplikasi yang benar.
